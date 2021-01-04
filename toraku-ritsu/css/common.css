@@ -1,0 +1,26 @@
+.btn_change_form_num {
+  width: 150px;
+  padding: 0.8em;
+  margin: 10px 10px;
+  border-style: none;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px gray;
+  color: white;
+  background-color: #0c88ca;
+}
+
+.btn_change_form_num:hover {
+  background-color: orange;
+}
+
+.input_form_num {
+  width: 50px;
+}
+
+.input_brand {
+  width: 100px;
+}
+
+.input_price {
+  width: 100px;
+}
