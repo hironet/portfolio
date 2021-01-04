@@ -22,8 +22,8 @@ $form_num = $form_num > MAX_FORM_NUM ? MAX_FORM_NUM : $form_num;
 
 print <<<CTRL_FORM
 <form method="POST" action="index.php">
-  項目数：<input class="input_form_num" type="number" name="form_num" value="{$form_num}">
-  <input class="btn_change_form_num" type="submit" value="項目数を変更">
+  項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}">
+  <input class="change_form_num" type="submit" value="項目数を変更">
 </form>
 
 <form method="POST" action="index.php">
@@ -50,9 +50,9 @@ function calc_form($no) {
   hendou.value = Math.round((Number(b.value) - Number(a.value)) * 100) / 100;
   toraku.value = Math.round((Number(b.value) / Number(a.value) - 1) * 100 * 100) / 100">
   <span class="td" style="text-align: right;">{$no}</span>
-  <span class="td"><input class="input_brand" type="text"></span>
-  <span class="td"><input class="input_price" type="number" name="a"></span>
-  <span class="td"><input class="input_price" type="number" name="b"></span>
+  <span class="td"><input class="brand" type="text"></span>
+  <span class="td"><input class="price" type="number" name="a"></span>
+  <span class="td"><input class="price" type="number" name="b"></span>
   <span class="td" style="text-align: right;"><output name="hendou"></output></span>
   <span class="td" style="text-align: right;"><output name="toraku"></output> %</span>
   <span class="td"><input type="reset" value="リセット"></span>
