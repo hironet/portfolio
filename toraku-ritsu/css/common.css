@@ -1,3 +1,15 @@
+html {
+  font-family: "メイリオ", meiryo, sans-serif;
+}
+
+div.control {
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.2em 0.5em;
+  margin: 10px;
+}
+
 div.table {
   display: table;
 }
@@ -9,11 +21,12 @@ form.tr, div.tr {
 span.td {
   display: table-cell;
   padding: 0.2em 1.0em;
-  border: 1px solid black;
+  border: 0.5px solid black;
 }
 
 input.change_form_num {
-  padding: 0.8em 1.5em;
+  width: 80px;
+  padding: 0.8em 0.2em;
   margin: 10px 10px;
   border-style: none;
   border-radius: 4px;
@@ -22,8 +35,15 @@ input.change_form_num {
   box-shadow: 3px 3px 3px gray;
 }
 
-input.change_form_num:hover {
-  background-color: orange;
+input.reset_form_num {
+  width: 80px;
+  padding: 0.8em 0.2em;
+  margin: 10px 10px;
+  border-style: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #ca0cca;
+  box-shadow: 3px 3px 3px gray;
 }
 
 input.form_num {

@@ -22,15 +22,16 @@ $form_num = $form_num > MIN_FORM_NUM ? $form_num : MIN_FORM_NUM;
 $form_num = $form_num < MAX_FORM_NUM ? $form_num : MAX_FORM_NUM;
 
 print <<<CTRL_FORM
-<form method="GET" action="index.php">
-  項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}">
-  <input class="change_form_num" type="submit" value="項目数を変更">
-</form>
-
-<form method="GET" action="index.php">
-  <input type="hidden" name="form_num" value="{$default_form_num}">
-  <input type="submit" value="リセット">
-</form>
+<div class="control">
+  <form method="GET" action="index.php">
+    項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}">
+    <input class="change_form_num" type="submit" value="変更">
+  </form>
+  <form method="GET" action="index.php">
+    <input type="hidden" name="form_num" value="{$default_form_num}">
+    <input class="reset_form_num" type="submit" value="リセット">
+  </form>
+</div>
 CTRL_FORM;
 ?>
 
