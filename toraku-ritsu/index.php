@@ -37,8 +37,8 @@ CTRL_FORM;
   <div class="tr" style="text-align: center;">
     <span class="td">No</span>
     <span class="td">銘柄</span>
-    <span class="td">以前の株価</span>
-    <span class="td">現在の株価</span>
+    <span class="td">変動前の株価</span>
+    <span class="td">変動後の株価</span>
     <span class="td">変動幅</span>
     <span class="td">騰落率</span>
     <span class="td"></span>
@@ -54,7 +54,7 @@ function calc_form($no) {
   <span class="td"><input class="price" type="number" name="a"></span>
   <span class="td"><input class="price" type="number" name="b"></span>
   <span class="td" style="text-align: right;"><output name="hendou"></output></span>
-  <span class="td" style="text-align: right;"><output name="toraku"></output> %</span>
+  <span class="td" style="text-align: right;"><output class="toraku" name="toraku"></output></span>
   <span class="td"><input type="reset" value="リセット"></span>
 </form>
 CALC_FORM;

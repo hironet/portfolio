@@ -1,29 +1,25 @@
-div.table 
-{
+div.table {
   display: table;
 }
 
-form.tr, div.tr
-{
+form.tr, div.tr {
   display: table-row;
 }
 
-span.td
-{
+span.td {
   display: table-cell;
-  padding: 0.2em;
+  padding: 0.2em 1.0em;
   border: 1px solid black;
 }
 
 input.change_form_num {
-  width: 150px;
-  padding: 0.8em;
+  padding: 0.8em 1.5em;
   margin: 10px 10px;
   border-style: none;
   border-radius: 4px;
-  box-shadow: 3px 3px 3px gray;
   color: white;
   background-color: #0c88ca;
+  box-shadow: 3px 3px 3px gray;
 }
 
 input.change_form_num:hover {
@@ -40,4 +36,8 @@ input.brand {
 
 input.price {
   width: 100px;
+}
+
+output.toraku::after {
+  content: " %";
 }
