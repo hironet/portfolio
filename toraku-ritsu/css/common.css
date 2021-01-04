@@ -1,3 +1,20 @@
+div.table 
+{
+  display: table;
+}
+
+form.tr, div.tr
+{
+  display: table-row;
+}
+
+span.td
+{
+  display: table-cell;
+  padding: 0.2em;
+  border: 1px solid black;
+}
+
 .btn_change_form_num {
   width: 150px;
   padding: 0.8em;

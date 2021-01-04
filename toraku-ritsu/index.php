@@ -15,7 +15,10 @@
 const MIN_FORM_NUM = 1;
 const MAX_FORM_NUM = 30;
 const DEFAULT_FORM_NUM = 4;
-$form_num = DEFAULT_FORM_NUM;
+$default_form_num = DEFAULT_FORM_NUM;
+$form_num = isset($_POST['form_num']) ? htmlspecialchars($_POST['form_num']) : $default_form_num;
+$form_num = $form_num < MIN_FORM_NUM ? MIN_FORM_NUM : $form_num;
+$form_num = $form_num > MAX_FORM_NUM ? MAX_FORM_NUM : $form_num;
 
 print <<<CTRL_FORM
 <form method="POST" action="index.php">
@@ -24,31 +27,44 @@ print <<<CTRL_FORM
 </form>
 
 <form method="POST" action="index.php">
-  <input type="hidden" name="form_num" value="{$form_num}">
+  <input type="hidden" name="form_num" value="{$default_form_num}">
   <input type="submit" value="リセット">
 </form>
 CTRL_FORM;
+?>
 
-$calc_form = <<<CALC_FORM
-<form onsubmit="return false" oninput="
+<div class="table">
+  <div class="tr" style="text-align: center;">
+    <span class="td">No</span>
+    <span class="td">銘柄</span>
+    <span class="td">以前の株価</span>
+    <span class="td">現在の株価</span>
+    <span class="td">変動幅</span>
+    <span class="td">騰落率</span>
+    <span class="td"></span>
+  </div>
+<?php
+function calc_form($no) {
+  return <<<CALC_FORM
+<form class="tr" onsubmit="return false" oninput="
   hendou.value = Math.round((Number(b.value) - Number(a.value)) * 100) / 100;
   toraku.value = Math.round((Number(b.value) / Number(a.value) - 1) * 100 * 100) / 100">
-  銘柄：<input class="input_brand" type="text">
-  以前の株価：<input class="input_price" type="number" name="a">
-  現在の株価：<input class="input_price" type="number" name="b">
-  変動幅：<output name="hendou"></output>
-  騰落率：<output name="toraku"></output> %
-  <input type="reset" value="リセット">
+  <span class="td" style="text-align: right;">{$no}</span>
+  <span class="td"><input class="input_brand" type="text"></span>
+  <span class="td"><input class="input_price" type="number" name="a"></span>
+  <span class="td"><input class="input_price" type="number" name="b"></span>
+  <span class="td" style="text-align: right;"><output name="hendou"></output></span>
+  <span class="td" style="text-align: right;"><output name="toraku"></output> %</span>
+  <span class="td"><input type="reset" value="リセット"></span>
 </form>
 CALC_FORM;
+}
 
-$form_num = isset($_POST['form_num']) ? htmlspecialchars($_POST['form_num']) : $form_num;
-$form_num = $form_num < MIN_FORM_NUM ? MIN_FORM_NUM : $form_num;
-$form_num = $form_num > MAX_FORM_NUM ? MAX_FORM_NUM : $form_num;
-for ($i = 0; $i < $form_num; $i++) {
-  print $calc_form;
+for ($i = 1; $i <= $form_num; $i++) {
+  print calc_form($i);
 }
 ?>
+</div>
 
 </body>
 </html>
