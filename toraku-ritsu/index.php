@@ -15,10 +15,11 @@
 const MIN_FORM_NUM = 1;
 const MAX_FORM_NUM = 30;
 const DEFAULT_FORM_NUM = 4;
+
 $default_form_num = DEFAULT_FORM_NUM;
 $form_num = isset($_GET['form_num']) ? htmlspecialchars($_GET['form_num']) : $default_form_num;
-$form_num = $form_num < MIN_FORM_NUM ? MIN_FORM_NUM : $form_num;
-$form_num = $form_num > MAX_FORM_NUM ? MAX_FORM_NUM : $form_num;
+$form_num = $form_num > MIN_FORM_NUM ? $form_num : MIN_FORM_NUM;
+$form_num = $form_num < MAX_FORM_NUM ? $form_num : MAX_FORM_NUM;
 
 print <<<CTRL_FORM
 <form method="GET" action="index.php">
