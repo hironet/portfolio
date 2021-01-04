@@ -16,17 +16,17 @@ const MIN_FORM_NUM = 1;
 const MAX_FORM_NUM = 30;
 const DEFAULT_FORM_NUM = 4;
 $default_form_num = DEFAULT_FORM_NUM;
-$form_num = isset($_POST['form_num']) ? htmlspecialchars($_POST['form_num']) : $default_form_num;
+$form_num = isset($_GET['form_num']) ? htmlspecialchars($_GET['form_num']) : $default_form_num;
 $form_num = $form_num < MIN_FORM_NUM ? MIN_FORM_NUM : $form_num;
 $form_num = $form_num > MAX_FORM_NUM ? MAX_FORM_NUM : $form_num;
 
 print <<<CTRL_FORM
-<form method="POST" action="index.php">
+<form method="GET" action="index.php">
   項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}">
   <input class="change_form_num" type="submit" value="項目数を変更">
 </form>
 
-<form method="POST" action="index.php">
+<form method="GET" action="index.php">
   <input type="hidden" name="form_num" value="{$default_form_num}">
   <input type="submit" value="リセット">
 </form>
