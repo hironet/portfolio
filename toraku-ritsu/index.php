@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/common.css" type="text/css">
+  <link rel="stylesheet" href="css/common.css" type="text/css">
   <title>騰落率計算ツール</title>
 </head>
 
@@ -24,7 +24,7 @@ $form_num = $form_num < MAX_FORM_NUM ? $form_num : MAX_FORM_NUM;
 print <<<CTRL_FORM
 <div class="control">
   <form method="GET" action="index.php">
-    項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}">
+    <label>項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}"></label>
     <input class="change_form_num" type="submit" value="変更">
   </form>
   <form method="GET" action="index.php">
