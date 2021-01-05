@@ -20,12 +20,22 @@ $default_form_num = DEFAULT_FORM_NUM;
 $form_num = isset($_GET['form_num']) ? htmlspecialchars($_GET['form_num']) : $default_form_num;
 $form_num = $form_num > MIN_FORM_NUM ? $form_num : MIN_FORM_NUM;
 $form_num = $form_num < MAX_FORM_NUM ? $form_num : MAX_FORM_NUM;
+$form_num_plus_one = $form_num + 1;
+$form_num_minus_one = $form_num - 1;
 
 print <<<CTRL_FORM
 <div class="control">
   <form method="GET" action="index.php">
     <label>項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}"></label>
     <input class="change_form_num" type="submit" value="変更">
+  </form>
+  <form method="GET" action="index.php">
+    <input type="hidden" name="form_num" value="{$form_num_plus_one}">
+    <input class="change_form_num" type="submit" value="1行追加">
+  </form>
+  <form method="GET" action="index.php">
+    <input type="hidden" name="form_num" value="{$form_num_minus_one}">
+    <input class="change_form_num" type="submit" value="1行削除">
   </form>
   <form method="GET" action="index.php">
     <input type="hidden" name="form_num" value="{$default_form_num}">
