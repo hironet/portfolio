@@ -31,8 +31,54 @@ input.change_form_num {
   border-style: none;
   border-radius: 4px;
   color: white;
-  background-color: #0c88ca;
-  box-shadow: 3px 3px 3px gray;
+  background-color: #1e90ff;
+  position: relative;
+}
+
+input.change_form_num:hover {
+  opacity: 0.7;
+}
+
+input.change_form_num:active {
+  top: 4px;
+}
+
+input.add_form_num {
+  width: 80px;
+  padding: 0.8em 0.2em;
+  margin: 10px 10px;
+  border-style: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #32cd32;
+  position: relative;
+}
+
+input.add_form_num:hover {
+  opacity: 0.7;
+}
+
+input.add_form_num:active {
+  top: 4px;
+}
+
+input.del_form_num {
+  width: 80px;
+  padding: 0.8em 0.2em;
+  margin: 10px 10px;
+  border-style: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #ff8c00;
+  position: relative;
+}
+
+input.del_form_num:hover {
+  opacity: 0.7;
+}
+
+input.del_form_num:active {
+  top: 4px;
 }
 
 input.reset_form_num {
@@ -42,8 +88,16 @@ input.reset_form_num {
   border-style: none;
   border-radius: 4px;
   color: white;
-  background-color: #ca0cca;
-  box-shadow: 3px 3px 3px gray;
+  background-color: #ff69b4;
+  position: relative;
+}
+
+input.reset_form_num:hover {
+  opacity: 0.7;
+}
+
+input.reset_form_num:active {
+  top: 4px;
 }
 
 input.form_num {

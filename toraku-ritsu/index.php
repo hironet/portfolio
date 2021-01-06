@@ -31,11 +31,11 @@ print <<<CTRL_FORM
   </form>
   <form method="GET" action="index.php">
     <input type="hidden" name="form_num" value="{$form_num_plus_one}">
-    <input class="change_form_num" type="submit" value="1行追加">
+    <input class="add_form_num" type="submit" value="1行追加">
   </form>
   <form method="GET" action="index.php">
     <input type="hidden" name="form_num" value="{$form_num_minus_one}">
-    <input class="change_form_num" type="submit" value="1行削除">
+    <input class="del_form_num" type="submit" value="1行削除">
   </form>
   <form method="GET" action="index.php">
     <input type="hidden" name="form_num" value="{$default_form_num}">
