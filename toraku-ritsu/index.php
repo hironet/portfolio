@@ -27,19 +27,19 @@ print <<<CTRL_FORM
 <div class="control">
   <form method="GET" action="index.php">
     <label>項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}"></label>
-    <input class="change_form_num" type="submit" value="変更">
+    <input class="ctrl_button change_button" type="submit" value="変更">
   </form>
   <form method="GET" action="index.php">
     <input type="hidden" name="form_num" value="{$form_num_plus_one}">
-    <input class="add_form_num" type="submit" value="1行追加">
+    <input class="ctrl_button add_button" type="submit" value="1行追加">
   </form>
   <form method="GET" action="index.php">
     <input type="hidden" name="form_num" value="{$form_num_minus_one}">
-    <input class="del_form_num" type="submit" value="1行削除">
+    <input class="ctrl_button del_button" type="submit" value="1行削除">
   </form>
   <form method="GET" action="index.php">
     <input type="hidden" name="form_num" value="{$default_form_num}">
-    <input class="reset_form_num" type="submit" value="リセット">
+    <input class="ctrl_button reset_button" type="submit" value="リセット">
   </form>
 </div>
 CTRL_FORM;
