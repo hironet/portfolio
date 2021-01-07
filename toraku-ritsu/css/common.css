@@ -3,11 +3,11 @@ html {
 }
 
 div.control {
-  display: inline-flex;
-  border: 1px solid black;
   border-radius: 10px;
-  padding: 0.2em 0.5em;
+  border: 1px solid black;
+  display: inline-flex;
   margin: 10px;
+  padding: 0.2em 0.5em;
 }
 
 div.table {
@@ -19,20 +19,20 @@ form.tr, div.tr {
 }
 
 span.td {
+  border: 0.5px solid black;
   display: table-cell;
   padding: 0.2em 1.0em;
-  border: 0.5px solid black;
 }
 
 input.change_form_num {
-  width: 80px;
-  padding: 0.8em 0.2em;
-  margin: 10px 10px;
-  border-style: none;
-  border-radius: 4px;
-  color: white;
   background-color: #1e90ff;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  margin: 10px 10px;
+  padding: 0.8em 0.2em;
   position: relative;
+  width: 80px;
 }
 
 input.change_form_num:hover {
@@ -44,14 +44,14 @@ input.change_form_num:active {
 }
 
 input.add_form_num {
-  width: 80px;
-  padding: 0.8em 0.2em;
-  margin: 10px 10px;
-  border-style: none;
-  border-radius: 4px;
-  color: white;
   background-color: #32cd32;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  margin: 10px 10px;
+  padding: 0.8em 0.2em;
   position: relative;
+  width: 80px;
 }
 
 input.add_form_num:hover {
@@ -63,14 +63,14 @@ input.add_form_num:active {
 }
 
 input.del_form_num {
-  width: 80px;
-  padding: 0.8em 0.2em;
-  margin: 10px 10px;
-  border-style: none;
-  border-radius: 4px;
-  color: white;
   background-color: #ff8c00;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  margin: 10px 10px;
+  padding: 0.8em 0.2em;
   position: relative;
+  width: 80px;
 }
 
 input.del_form_num:hover {
@@ -82,14 +82,14 @@ input.del_form_num:active {
 }
 
 input.reset_form_num {
-  width: 80px;
-  padding: 0.8em 0.2em;
-  margin: 10px 10px;
-  border-style: none;
-  border-radius: 4px;
-  color: white;
   background-color: #ff69b4;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  margin: 10px 10px;
+  padding: 0.8em 0.2em;
   position: relative;
+  width: 80px;
 }
 
 input.reset_form_num:hover {
