@@ -22,28 +22,26 @@ $form_num = $form_num > MIN_FORM_NUM ? $form_num : MIN_FORM_NUM;
 $form_num = $form_num < MAX_FORM_NUM ? $form_num : MAX_FORM_NUM;
 $form_num_plus_one = $form_num + 1;
 $form_num_minus_one = $form_num - 1;
+?>
 
-print <<<CTRL_FORM
 <div class="control">
   <form method="GET" action="index.php">
-    <label>項目数：<input class="form_num" type="number" name="form_num" value="{$form_num}"></label>
+    <label>項目数：<input class="form_num" type="number" name="form_num" value="<?php print $form_num ?>"></label>
     <input class="ctrl_button change_button" type="submit" value="変更">
   </form>
   <form method="GET" action="index.php">
-    <input type="hidden" name="form_num" value="{$form_num_plus_one}">
+    <input type="hidden" name="form_num" value="<?php print $form_num_plus_one ?>">
     <input class="ctrl_button add_button" type="submit" value="1行追加">
   </form>
   <form method="GET" action="index.php">
-    <input type="hidden" name="form_num" value="{$form_num_minus_one}">
+    <input type="hidden" name="form_num" value="<?php print $form_num_minus_one ?>">
     <input class="ctrl_button del_button" type="submit" value="1行削除">
   </form>
   <form method="GET" action="index.php">
-    <input type="hidden" name="form_num" value="{$default_form_num}">
+    <input type="hidden" name="form_num" value="<?php print $default_form_num ?>">
     <input class="ctrl_button reset_button" type="submit" value="リセット">
   </form>
 </div>
-CTRL_FORM;
-?>
 
 <div class="table">
   <div class="tr" style="text-align: center;">
@@ -57,7 +55,7 @@ CTRL_FORM;
   </div>
 <?php
 function calc_form($no) {
-  return <<<CALC_FORM
+  print <<<CALC_FORM
 <form class="tr" onsubmit="return false" oninput="
   hendou.value = Math.round((Number(b.value) - Number(a.value)) * 100) / 100;
   toraku.value = Math.round((Number(b.value) / Number(a.value) - 1) * 100 * 100) / 100">
@@ -73,7 +71,7 @@ CALC_FORM;
 }
 
 for ($i = 1; $i <= $form_num; $i++) {
-  print calc_form($i);
+  calc_form($i);
 }
 ?>
 </div>
