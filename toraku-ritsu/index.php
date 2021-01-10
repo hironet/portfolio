@@ -54,9 +54,10 @@ $form_num_minus_one = $form_num - 1;
 <?php
 function calc_form($no) {
   print <<<CALC_FORM
-<form class="tr" onsubmit="return false" oninput="
-  hendou.value = Math.round((Number(b.value) - Number(a.value)) * 100) / 100;
-  toraku.value = Math.round((Number(b.value) / Number(a.value) - 1) * 100 * 100) / 100">
+<form class="tr" onsubmit="return false;" oninput="
+  hendou.value = calc_hendou(Number(a.value), Number(b.value));
+  toraku.value = calc_toraku(Number(a.value), Number(b.value));
+">
   <span class="td" style="text-align: right;">{$no}</span>
   <span class="td"><input class="brand" type="text"></span>
   <span class="td"><input class="price" type="number" name="a"></span>
@@ -74,5 +75,6 @@ for ($i = 1; $i <= $form_num; $i++) {
 ?>
 </div>
 
+<script src="js/common.js"></script>
 </body>
 </html>
