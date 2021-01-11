@@ -168,7 +168,7 @@ function checkMove(mx, my, ntetro) {
           let ny = tetro_y + my + y;
 
           if (ny < 0 || nx < 0 || ny >= FIELD_ROW || nx >= FIELD_COL || field[ny][nx]) {
-          return false;
+            return false;
         }
       }
     }
@@ -242,9 +242,7 @@ function dropTetro() {
     tetro_x = START_X;
     tetro_y = START_Y;
 
-    if (!checkMove(0, 0)) {
-      over = true;
-    }
+    if (!checkMove(0, 0)) over = true;
   }
   drawAll();
 }
