@@ -1,7 +1,11 @@
-const GAME_SPEED = 500; // 落ちるスピード
+// 落ちるスピード
+const GAME_SPEED = 500;
 
-const BLOCK_SIZE = 30;  // ブロック1つのサイズ（ピクセル）
-const TETRO_SIZE = 4;  // テトロミノのサイズ
+// ブロック1つのサイズ（ピクセル）
+const BLOCK_SIZE = 30;
+
+// テトロミノのサイズ
+const TETRO_SIZE = 4;
 
 // フィールドサイズ
 const FIELD_COL = 10;
@@ -11,26 +15,8 @@ const FIELD_ROW = 20;
 const SCREEN_W = BLOCK_SIZE * FIELD_COL;
 const SCREEN_H = BLOCK_SIZE * FIELD_ROW;
 
-let can = document.getElementById("can");
-let con = can.getContext("2d");
-
-can.width = SCREEN_W;
-can.height = SCREEN_H;
-can.style.border = "4px solid #555";
-
-const TETRO_COLORS = [
-  "#000",  // 0 空
-  "#6CF",  // 1 水色
-  "#F92",  // 2 オレンジ
-  "#66F",  // 3 青
-  "#C5C",  // 4 紫
-  "#FD2",  // 5 黄色
-  "#F44",  // 6 赤
-  "#5B5",  // 7 緑
-];
-
 const TETRO_TYPES = [
-  [],  // 0. 空っぽ
+  [],  // 0. 空
   [  // 1. I
     [0, 0, 0, 0],
     [1, 1, 1, 1],
@@ -75,32 +61,41 @@ const TETRO_TYPES = [
   ],
 ];
 
+const TETRO_COLORS = [
+  "#000",  // 0. 空
+  "#6CF",  // 1. 水色
+  "#F92",  // 2. オレンジ
+  "#66F",  // 3. 青
+  "#C5C",  // 4. 紫
+  "#FD2",  // 5. 黄色
+  "#F44",  // 6. 赤
+  "#5B5",  // 7. 緑
+];
+
 const START_X = FIELD_COL / 2 - TETRO_SIZE / 2;
 const START_Y = 0;
 
+let can = document.getElementById("can");
+can.width = SCREEN_W;
+can.height = SCREEN_H;
+can.style.border = "4px solid #555";
+let con = can.getContext("2d");
+
+// テトロミノの形
+let tetro_t = Math.floor(Math.random() * (TETRO_TYPES.length - 1)) + 1;;
+
 // テトロミノ本体
-let tetro;
+let tetro = TETRO_TYPES[tetro_t];;
 
 // テトロミノの座標
 let tetro_x = START_X;
 let tetro_y = START_Y;
-
-// テトロミノの形
-let tetro_t;
 
 // フィールドの中身
 let field = [];
 
 // ゲームオーバーフラグ
 let over = false;
-
-tetro_t = Math.floor(Math.random() * (TETRO_TYPES.length - 1)) + 1;
-tetro = TETRO_TYPES[tetro_t];
-
-init();
-drawAll();
-
-setInterval(dropTetro, GAME_SPEED);
 
 // 初期化
 function init() {
@@ -146,10 +141,10 @@ function drawAll() {
 
   if (over) {
     let s = "GAME OVER";
-    con.font = "40px 'ＭＳ　ゴシック'";
     let w = con.measureText(s).width;
     let x = SCREEN_W / 2 - w / 2;
     let y = SCREEN_H / 2 - 20;
+    con.font = "40px 'ＭＳ　ゴシック'";
     con.lineWidth = 4;
     con.strokeText(s, x, y);
     con.fillStyle = "white";
@@ -273,3 +268,7 @@ document.onkeydown = function (e) {
 
   drawAll();
 }
+
+init();
+drawAll();
+setInterval(dropTetro, GAME_SPEED);
