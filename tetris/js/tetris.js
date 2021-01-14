@@ -269,6 +269,23 @@ document.onkeydown = function (e) {
   drawAll();
 }
 
+document.getElementById("btn_left").onclick = function (e) {
+  if (checkMove(-1, 0)) tetro_x--;
+}
+
+document.getElementById("btn_right").onclick = function (e) {
+  if (checkMove(1, 0)) tetro_x++;
+}
+
+document.getElementById("btn_under").onclick = function (e) {
+  while (checkMove(0, 1)) tetro_y++;
+}
+
+document.getElementById("btn_rotate").onclick = function (e) {
+  let ntetro = rotate();
+  if (checkMove(0, 0, ntetro)) tetro = ntetro;
+}
+
 init();
 drawAll();
 setInterval(dropTetro, GAME_SPEED);
