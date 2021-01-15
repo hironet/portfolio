@@ -141,10 +141,10 @@ function drawAll() {
 
   if (over) {
     let s = "GAME OVER";
+    con.font = "40px 'ＭＳ　ゴシック'";
     let w = con.measureText(s).width;
     let x = SCREEN_W / 2 - w / 2;
     let y = SCREEN_H / 2 - 20;
-    con.font = "40px 'ＭＳ　ゴシック'";
     con.lineWidth = 4;
     con.strokeText(s, x, y);
     con.fillStyle = "white";
