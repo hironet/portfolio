@@ -97,6 +97,12 @@ let field = [];
 // ゲームオーバーフラグ
 let over = false;
 
+// 消したライン数
+let lines = 0;
+
+// スコア
+let score = 0;
+
 // 初期化
 function init() {
   // フィールドのクリア
@@ -219,6 +225,11 @@ function checkLine() {
         }
       }
     }
+  }
+
+  if (linec) {
+    lines += linec;
+    score += 100 * (2 ** (linec - 1));
   }
 }
 
