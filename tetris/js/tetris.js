@@ -282,8 +282,8 @@ document.onkeydown = function (e) {
 }
 
 let btn_left = document.getElementById("btn_left");
-btn_left.addEventListener('touchstart', function(event) {
-  event.preventDefault();
+btn_left.addEventListener('touchstart', function(e) {
+  e.preventDefault();
   leftAction();
 });
 btn_left.addEventListener('click', function() {
@@ -291,8 +291,8 @@ btn_left.addEventListener('click', function() {
 });
 
 let btn_right = document.getElementById("btn_right");
-btn_right.addEventListener('touchstart', function(event) {
-  event.preventDefault();
+btn_right.addEventListener('touchstart', function(e) {
+  e.preventDefault();
   rightAction();
 });
 btn_right.addEventListener('click', function() {
@@ -300,8 +300,8 @@ btn_right.addEventListener('click', function() {
 });
 
 let btn_under = document.getElementById("btn_under");
-btn_under.addEventListener('touchstart', function(event) {
-  event.preventDefault();
+btn_under.addEventListener('touchstart', function(e) {
+  e.preventDefault();
   underAction();
 });
 btn_under.addEventListener('click', function() {
@@ -309,8 +309,8 @@ btn_under.addEventListener('click', function() {
 });
 
 let btn_rotate = document.getElementById("btn_rotate");
-btn_rotate.addEventListener('touchstart', function(event) {
-  event.preventDefault();
+btn_rotate.addEventListener('touchstart', function(e) {
+  e.preventDefault();
   rotateAction();
 });
 btn_rotate.addEventListener('click', function() {
