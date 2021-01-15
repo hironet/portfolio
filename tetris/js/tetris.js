@@ -242,49 +242,80 @@ function dropTetro() {
   drawAll();
 }
 
+function leftAction() {
+  if (checkMove(-1, 0)) tetro_x--;
+}
+
+function rightAction() {
+  if (checkMove(1, 0)) tetro_x++;
+}
+
+function underAction() {
+  if (checkMove(0, 1)) tetro_y++;
+}
+
+function rotateAction() {
+  let ntetro = rotate();
+  if (checkMove(0, 0, ntetro)) tetro = ntetro;
+}
+
 // キーボードが押された時の処理
 document.onkeydown = function (e) {
   if (over) return;
 
   switch (e.keyCode) {
     case 37: // 左
-      if (checkMove(-1, 0)) tetro_x--;
-      break;
-    case 38: // 上
-      //if (checkMove(0, -1)) tetro_y--;
+      leftAction();
       break;
     case 39: // 右
-      if (checkMove(1, 0)) tetro_x++;
+      rightAction();
       break;
     case 40: // 下
-      //if (checkMove(0, 1)) tetro_y++;
-      while (checkMove(0, 1)) tetro_y++;
+      underAction();
       break;
     case 32: // スペース
-      let ntetro = rotate();
-      if (checkMove(0, 0, ntetro)) tetro = ntetro;
+      rotateAction();
       break;
   }
 
   drawAll();
 }
 
-document.getElementById("btn_left").onclick = function (e) {
-  if (checkMove(-1, 0)) tetro_x--;
-}
+let btn_left = document.getElementById("btn_left");
+btn_left.addEventListener('touchstart', function(event) {
+  event.preventDefault();
+  leftAction();
+});
+btn_left.addEventListener('click', function() {
+  leftAction();
+});
 
-document.getElementById("btn_right").onclick = function (e) {
-  if (checkMove(1, 0)) tetro_x++;
-}
+let btn_right = document.getElementById("btn_right");
+btn_right.addEventListener('touchstart', function(event) {
+  event.preventDefault();
+  rightAction();
+});
+btn_right.addEventListener('click', function() {
+  rightAction();
+});
 
-document.getElementById("btn_under").onclick = function (e) {
-  while (checkMove(0, 1)) tetro_y++;
-}
+let btn_under = document.getElementById("btn_under");
+btn_under.addEventListener('touchstart', function(event) {
+  event.preventDefault();
+  underAction();
+});
+btn_under.addEventListener('click', function() {
+  underAction();
+});
 
-document.getElementById("btn_rotate").onclick = function (e) {
-  let ntetro = rotate();
-  if (checkMove(0, 0, ntetro)) tetro = ntetro;
-}
+let btn_rotate = document.getElementById("btn_rotate");
+btn_rotate.addEventListener('touchstart', function(event) {
+  event.preventDefault();
+  rotateAction();
+});
+btn_rotate.addEventListener('click', function() {
+  rotateAction();
+});
 
 init();
 drawAll();
