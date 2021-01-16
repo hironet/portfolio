@@ -8,7 +8,9 @@
 </head>
 <body>
 
-<canvas id="can"></canvas>
+<div id="screen">
+  <canvas id="can"></canvas>
+</div>
 <br>
 <div class="control">
   <button id="btn_left" class="ctrl_btn" type="button">左</button>
