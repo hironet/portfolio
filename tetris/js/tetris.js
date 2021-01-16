@@ -253,20 +253,25 @@ function dropTetro() {
   drawAll();
 }
 
-function leftAction() {
+function leftAction(e) {
+  if (e != null) e.preventDefault();
   if (checkMove(-1, 0)) tetro_x--;
 }
 
-function rightAction() {
+function rightAction(e) {
+  if (e != null) e.preventDefault();
   if (checkMove(1, 0)) tetro_x++;
 }
 
-function underAction() {
+function underAction(e) {
+  if (e != null) e.preventDefault();
   if (checkMove(0, 1)) tetro_y++;
 }
 
-function rotateAction() {
+function rotateAction(e) {
   let ntetro = rotate();
+
+  if (e != null) e.preventDefault();
   if (checkMove(0, 0, ntetro)) tetro = ntetro;
 }
 
@@ -298,41 +303,17 @@ function setEvent() {
     drawAll();
   }
 
-  left_btn.addEventListener('touchstart', function(e) {
-    e.preventDefault();
-    leftAction();
-  });
+  left_btn.addEventListener('touchstart', leftAction);
+  left_btn.addEventListener('click', leftAction);
 
-  right_btn.addEventListener('touchstart', function(e) {
-    e.preventDefault();
-    rightAction();
-  });
+  right_btn.addEventListener('touchstart', rightAction);
+  right_btn.addEventListener('click', rightAction);
 
-  under_btn.addEventListener('touchstart', function(e) {
-    e.preventDefault();
-    underAction();
-  });
+  under_btn.addEventListener('touchstart', underAction);
+  under_btn.addEventListener('click', underAction);
 
-  rotate_btn.addEventListener('touchstart', function(e) {
-    e.preventDefault();
-    rotateAction();
-  });
-
-  left_btn.addEventListener('click', function() {
-    leftAction();
-  });
-
-  right_btn.addEventListener('click', function() {
-    rightAction();
-  });
-
-  under_btn.addEventListener('click', function() {
-    underAction();
-  });
-
-  rotate_btn.addEventListener('click', function() {
-    rotateAction();
-  });
+  rotate_btn.addEventListener('touchstart', rotateAction);
+  rotate_btn.addEventListener('click', rotateAction);
 }
 
 init();
