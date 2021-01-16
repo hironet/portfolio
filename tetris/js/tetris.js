@@ -62,23 +62,23 @@ const TETRO_TYPES = [
 ];
 
 const TETRO_COLORS = [
-  "#000",  // 0. 空
-  "#6CF",  // 1. 水色
-  "#F92",  // 2. オレンジ
-  "#66F",  // 3. 青
-  "#C5C",  // 4. 紫
-  "#FD2",  // 5. 黄色
-  "#F44",  // 6. 赤
-  "#5B5",  // 7. 緑
+  '#000',  // 0. 空
+  '#6CF',  // 1. 水色
+  '#F92',  // 2. オレンジ
+  '#66F',  // 3. 青
+  '#C5C',  // 4. 紫
+  '#FD2',  // 5. 黄色
+  '#F44',  // 6. 赤
+  '#5B5',  // 7. 緑
 ];
 
 const START_X = FIELD_COL / 2 - TETRO_SIZE / 2;
 const START_Y = 0;
 
-let can = document.getElementById("can");
+let can = document.getElementById('can');
 can.width = SCREEN_W;
 can.height = SCREEN_H;
-can.style.border = "4px solid #555";
+can.style.border = '4px solid #555';
 let con = can.getContext("2d");
 
 // テトロミノの形
@@ -121,7 +121,7 @@ function drawBlodk(x, y, c) {
 
   con.fillStyle = TETRO_COLORS[c];
   con.fillRect(px, py, BLOCK_SIZE, BLOCK_SIZE);
-  con.strokeStyle = "black";
+  con.strokeStyle = 'black';
   con.strokeRect(px, py, BLOCK_SIZE, BLOCK_SIZE);
 }
 
@@ -146,14 +146,14 @@ function drawAll() {
   }
 
   if (over) {
-    let s = "GAME OVER";
+    let s = 'GAME OVER';
     con.font = "40px 'ＭＳ　ゴシック'";
     let w = con.measureText(s).width;
     let x = SCREEN_W / 2 - w / 2;
     let y = SCREEN_H / 2 - 20;
     con.lineWidth = 4;
     con.strokeText(s, x, y);
-    con.fillStyle = "white";
+    con.fillStyle = 'white';
     con.fillText(s, x, y);
   }
 }
@@ -276,10 +276,10 @@ function rotateAction(e) {
 }
 
 function setEvent() {
-  let left_btn = document.getElementById("left_btn");
-  let right_btn = document.getElementById("right_btn");
-  let under_btn = document.getElementById("under_btn");
-  let rotate_btn = document.getElementById("rotate_btn");
+  let left_btn = document.getElementById('left_btn');
+  let right_btn = document.getElementById('right_btn');
+  let under_btn = document.getElementById('under_btn');
+  let rotate_btn = document.getElementById('rotate_btn');
 
   // キーボードが押された時の処理
   document.onkeydown = function (e) {
