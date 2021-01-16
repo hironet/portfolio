@@ -270,64 +270,72 @@ function rotateAction() {
   if (checkMove(0, 0, ntetro)) tetro = ntetro;
 }
 
-// キーボードが押された時の処理
-document.onkeydown = function (e) {
-  if (over) return;
+function setEvent() {
+  let left_btn = document.getElementById("left_btn");
+  let right_btn = document.getElementById("right_btn");
+  let under_btn = document.getElementById("under_btn");
+  let rotate_btn = document.getElementById("rotate_btn");
 
-  switch (e.keyCode) {
-    case 37: // 左
-      leftAction();
-      break;
-    case 39: // 右
-      rightAction();
-      break;
-    case 40: // 下
-      underAction();
-      break;
-    case 32: // スペース
-      rotateAction();
-      break;
+  // キーボードが押された時の処理
+  document.onkeydown = function (e) {
+    if (over) return;
+
+    switch (e.keyCode) {
+      case 37: // 左
+        leftAction();
+        break;
+      case 39: // 右
+        rightAction();
+        break;
+      case 40: // 下
+        underAction();
+        break;
+      case 32: // スペース
+        rotateAction();
+        break;
+    }
+
+    drawAll();
   }
 
-  drawAll();
+  left_btn.addEventListener('touchstart', function(e) {
+    e.preventDefault();
+    leftAction();
+  });
+
+  right_btn.addEventListener('touchstart', function(e) {
+    e.preventDefault();
+    rightAction();
+  });
+
+  under_btn.addEventListener('touchstart', function(e) {
+    e.preventDefault();
+    underAction();
+  });
+
+  rotate_btn.addEventListener('touchstart', function(e) {
+    e.preventDefault();
+    rotateAction();
+  });
+
+  left_btn.addEventListener('click', function() {
+    leftAction();
+  });
+
+  right_btn.addEventListener('click', function() {
+    rightAction();
+  });
+
+  under_btn.addEventListener('click', function() {
+    underAction();
+  });
+
+  rotate_btn.addEventListener('click', function() {
+    rotateAction();
+  });
 }
-
-let btn_left = document.getElementById("btn_left");
-btn_left.addEventListener('touchstart', function(e) {
-  e.preventDefault();
-  leftAction();
-});
-btn_left.addEventListener('click', function() {
-  leftAction();
-});
-
-let btn_right = document.getElementById("btn_right");
-btn_right.addEventListener('touchstart', function(e) {
-  e.preventDefault();
-  rightAction();
-});
-btn_right.addEventListener('click', function() {
-  rightAction();
-});
-
-let btn_under = document.getElementById("btn_under");
-btn_under.addEventListener('touchstart', function(e) {
-  e.preventDefault();
-  underAction();
-});
-btn_under.addEventListener('click', function() {
-  underAction();
-});
-
-let btn_rotate = document.getElementById("btn_rotate");
-btn_rotate.addEventListener('touchstart', function(e) {
-  e.preventDefault();
-  rotateAction();
-});
-btn_rotate.addEventListener('click', function() {
-  rotateAction();
-});
 
 init();
 drawAll();
+setEvent();
 setInterval(dropTetro, GAME_SPEED);

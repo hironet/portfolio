@@ -18,7 +18,7 @@ div.control {
   padding: 0.2em 0.5em;
 }
 
-button.ctrl_btn {
+button.control_btn {
   border-radius: 4px;
   border-style: none;
   color: white;
@@ -28,18 +28,18 @@ button.ctrl_btn {
   width: 50px;
 }
 
-button#btn_left {
+#left_btn {
   background-color: #1e90ff;
 }
 
-button#btn_under {
+#under_btn {
   background-color: #32cd32;
 }
 
-button#btn_right {
+#right_btn {
   background-color: #ff8c00;
 }
 
-button#btn_rotate {
+#rotate_btn {
   background-color: #ff69b4;
 }
