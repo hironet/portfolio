@@ -276,10 +276,10 @@ function rotateAction(e) {
 }
 
 function setEvent() {
-  let left_btn = document.getElementById('left-btn');
-  let right_btn = document.getElementById('right-btn');
-  let under_btn = document.getElementById('under-btn');
-  let rotate_btn = document.getElementById('rotate-btn');
+  let leftBtn = document.getElementById('left-btn');
+  let rightBtn = document.getElementById('right-btn');
+  let underBtn = document.getElementById('under-btn');
+  let rotateBtn = document.getElementById('rotate-btn');
 
   // キーボードが押された時の処理
   document.onkeydown = function (e) {
@@ -303,17 +303,17 @@ function setEvent() {
     drawAll();
   }
 
-  left_btn.addEventListener('touchstart', leftAction);
-  left_btn.addEventListener('click', leftAction);
+  leftBtn.addEventListener('touchstart', leftAction);
+  leftBtn.addEventListener('click', leftAction);
 
-  right_btn.addEventListener('touchstart', rightAction);
-  right_btn.addEventListener('click', rightAction);
+  rightBtn.addEventListener('touchstart', rightAction);
+  rightBtn.addEventListener('click', rightAction);
 
-  under_btn.addEventListener('touchstart', underAction);
-  under_btn.addEventListener('click', underAction);
+  underBtn.addEventListener('touchstart', underAction);
+  underBtn.addEventListener('click', underAction);
 
-  rotate_btn.addEventListener('touchstart', rotateAction);
-  rotate_btn.addEventListener('click', rotateAction);
+  rotateBtn.addEventListener('touchstart', rotateAction);
+  rotateBtn.addEventListener('click', rotateAction);
 }
 
 init();
