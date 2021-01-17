@@ -1,9 +1,6 @@
 // 落ちるスピード
 const GAME_SPEED = 500;
 
-// ブロック1つのサイズ（ピクセル）
-const BLOCK_SIZE = 30;
-
 // テトロミノのサイズ
 const TETRO_SIZE = 4;
 
@@ -11,9 +8,9 @@ const TETRO_SIZE = 4;
 const FIELD_COL = 10;
 const FIELD_ROW = 20;
 
-// スクリーンサイズ
-const SCREEN_W = BLOCK_SIZE * FIELD_COL;
-const SCREEN_H = BLOCK_SIZE * FIELD_ROW;
+const SCREEN_H = window.innerHeight * 0.8;  // スクリーンサイズ（高さ）
+const BLOCK_SIZE = SCREEN_H / FIELD_ROW;    // ブロック1つのサイズ（ピクセル）
+const SCREEN_W = BLOCK_SIZE * FIELD_COL;    // スクリーンサイズ（幅）
 
 const TETRO_TYPES = [
   [],  // 0. 空
