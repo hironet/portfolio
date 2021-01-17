@@ -10,14 +10,6 @@ div#screen {
   transform: translate(-50%, -50%);
 }
 
-div.control {
-  border-radius: 10px;
-  border: 1px solid black;
-  display: inline-flex;
-  margin: 10px;
-  padding: 0.2em 0.5em;
-}
-
 button#left-btn {
   background-color: #1e90ff;
 }
@@ -38,8 +30,8 @@ button.control-btn {
   border-radius: 4px;
   border-style: none;
   color: white;
-  margin: 10px 10px;
+  margin: 2px 2px;
   padding: 0.8em 0.2em;
   position: relative;
-  width: 50px;
+  width: 70px;
 }
