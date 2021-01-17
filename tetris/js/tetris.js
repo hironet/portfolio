@@ -276,10 +276,10 @@ function rotateAction(e) {
 }
 
 function setEvent() {
-  let left_btn = document.getElementById('left_btn');
-  let right_btn = document.getElementById('right_btn');
-  let under_btn = document.getElementById('under_btn');
-  let rotate_btn = document.getElementById('rotate_btn');
+  let left_btn = document.getElementById('left-btn');
+  let right_btn = document.getElementById('right-btn');
+  let under_btn = document.getElementById('under-btn');
+  let rotate_btn = document.getElementById('rotate-btn');
 
   // キーボードが押された時の処理
   document.onkeydown = function (e) {

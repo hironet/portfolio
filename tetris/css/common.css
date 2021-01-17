@@ -2,7 +2,7 @@ html {
   touch-action: manipulation;
 }
 
-#screen {
+div#screen {
   left: 50%;
   margin-right: -50%;
   position: absolute;
@@ -18,7 +18,23 @@ div.control {
   padding: 0.2em 0.5em;
 }
 
-button.control_btn {
+button#left-btn {
+  background-color: #1e90ff;
+}
+
+button#under-btn {
+  background-color: #32cd32;
+}
+
+button#right-btn {
+  background-color: #ff8c00;
+}
+
+button#rotate-btn {
+  background-color: #ff69b4;
+}
+
+button.control-btn {
   border-radius: 4px;
   border-style: none;
   color: white;
@@ -26,20 +42,4 @@ button.control_btn {
   padding: 0.8em 0.2em;
   position: relative;
   width: 50px;
-}
-
-#left_btn {
-  background-color: #1e90ff;
-}
-
-#under_btn {
-  background-color: #32cd32;
-}
-
-#right_btn {
-  background-color: #ff8c00;
-}
-
-#rotate_btn {
-  background-color: #ff69b4;
 }
