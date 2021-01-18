@@ -10,6 +10,17 @@ div#screen {
   transform: translate(-50%, -50%);
 }
 
+div#control {
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
 button#left-btn {
   background-color: #1e90ff;
 }
