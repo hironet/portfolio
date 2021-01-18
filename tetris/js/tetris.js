@@ -142,6 +142,9 @@ function drawAll() {
     }
   }
 
+  con.font = "14px 'ＭＳ　ゴシック'";
+  con.strokeText('Score: ' + score, 2, 15);
+
   if (over) {
     let s = 'GAME OVER';
     con.font = "40px 'ＭＳ　ゴシック'";
