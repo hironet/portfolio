@@ -1,4 +1,5 @@
 html {
+  overflow: hidden;  /* スクロールを禁止 */
   touch-action: manipulation;
 }
 
@@ -6,8 +7,7 @@ div#screen {
   left: 50%;
   margin-right: -50%;
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
 div#control {
@@ -18,7 +18,7 @@ div#control {
   margin-right: -50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 300px;
 }
 
 button#left-btn {
