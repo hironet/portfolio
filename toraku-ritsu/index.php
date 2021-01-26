@@ -5,21 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <style>
-    div.table {
-      display: table;
-    }
-
-    form.tr, div.tr {
-      display: table-row;
-    }
-
-    span.td {
-      border: 0.5px solid black;
-      display: table-cell;
-      padding: 0.2em 1.0em;
-    }
-
-    input.ctrl_button {
+    .ctrl_button {
       border-radius: 4px;
       border-style: none;
       color: white;
@@ -29,40 +15,28 @@
       width: 80px;
     }
 
-    input.ctrl_button:hover {
+    .ctrl_button:hover {
       opacity: 0.7;
     }
 
-    input.ctrl_button:active {
+    .ctrl_button:active {
       top: 4px;
     }
 
-    input.change_button {
+    #change_button {
       background-color: #1e90ff;
     }
 
-    input.add_button {
+    #add_button {
       background-color: #32cd32;
     }
 
-    input.del_button {
+    #del_button {
       background-color: #ff8c00;
     }
 
-    input.reset_button {
+    #reset_button {
       background-color: #ff69b4;
-    }
-
-    input.form_num {
-      width: 50px;
-    }
-
-    input.brand {
-      width: 100px;
-    }
-
-    input.price {
-      width: 100px;
     }
 
     output.toraku::after {
@@ -89,54 +63,56 @@
     <div class="row">
       <div class="col-12 col-lg-4">
         <form method="GET" action="index.php">
-          <label>項目数：<input class="form_num" type="number" name="form_num" value="<?php print $form_num ?>"></label>
-          <input class="ctrl_button change_button" type="submit" value="変更">
+          <label>項目数：<input class="form_num" type="number" name="form_num" value="<?php print $form_num ?>" style="width: 50px;"></label>
+          <input id="change_button" class="ctrl_button" type="submit" value="変更">
         </form>
       </div>
       <div class="col-4 col-lg-2">
         <form method="GET" action="index.php">
           <input type="hidden" name="form_num" value="<?php print $form_num_plus_one ?>">
-          <input class="ctrl_button add_button" type="submit" value="1行追加">
+          <input id="add_button" class="ctrl_button" type="submit" value="1行追加">
         </form>
       </div>
       <div class="col-4 col-lg-2">
         <form method="GET" action="index.php">
           <input type="hidden" name="form_num" value="<?php print $form_num_minus_one ?>">
-          <input class="ctrl_button del_button" type="submit" value="1行削除">
+          <input id="del_button" class="ctrl_button" type="submit" value="1行削除">
         </form>
       </div>
       <div class="col-4 col-lg-2">
         <form method="GET" action="index.php">
           <input type="hidden" name="form_num" value="<?php print $default_form_num ?>">
-          <input class="ctrl_button reset_button" type="submit" value="リセット">
+          <input id="reset_button" class="ctrl_button" type="submit" value="リセット">
         </form>
       </div>
     </div>
   </div>
-  <div class="table">
-    <div class="tr" style="text-align: center;">
-      <span class="td">No</span>
-      <span class="td">銘柄</span>
-      <span class="td">変動前の株価</span>
-      <span class="td">変動後の株価</span>
-      <span class="td">変動幅</span>
-      <span class="td">騰落率</span>
-      <span class="td"></span>
+  <div class="container">
+    <div class="row" style="text-align: center;">
+      <div class="col-6 col-lg-1 border">No</div>
+      <div class="col-6 col-lg-2 border">銘柄</div>
+      <div class="col-6 col-lg-2 border">変動前の株価</div>
+      <div class="col-6 col-lg-2 border">変動後の株価</div>
+      <div class="col-6 col-lg-2 border">変動幅</div>
+      <div class="col-6 col-lg-2 border">騰落率</div>
+      <div class="col-12 col-lg-1 border"></div>
     </div>
   <?php
   function calc_form($no) {
     print <<<CALC_FORM
-  <form class="tr" onsubmit="return false;" oninput="
-    hendou.value = calc_hendou(Number(a.value), Number(b.value));
-    toraku.value = calc_toraku(Number(a.value), Number(b.value));
-  ">
-    <span class="td" style="text-align: right;">{$no}</span>
-    <span class="td"><input class="brand" type="text"></span>
-    <span class="td"><input class="price" type="number" name="a"></span>
-    <span class="td"><input class="price" type="number" name="b"></span>
-    <span class="td" style="text-align: right;"><output name="hendou"></output></span>
-    <span class="td" style="text-align: right;"><output class="toraku" name="toraku"></output></span>
-    <span class="td"><input type="reset" value="リセット"></span>
+    <form onsubmit="return false;" oninput="
+      hendou.value = calc_hendou(Number(a.value), Number(b.value));
+      toraku.value = calc_toraku(Number(a.value), Number(b.value));
+    ">
+    <div class="row">
+      <div class="col-6 col-lg-1 border" style="text-align: right;">{$no}</div>
+      <div class="col-6 col-lg-2 border"><input class="brand" type="text" style="width: 100%;"></div>
+      <div class="col-6 col-lg-2 border"><input class="price" type="number" name="a" style="width: 100%;"></div>
+      <div class="col-6 col-lg-2 border"><input class="price" type="number" name="b" style="width: 100%;"></div>
+      <div class="col-6 col-lg-2 border" style="text-align: right;"><output name="hendou"></output></div>
+      <div class="col-6 col-lg-2 border" style="text-align: right;"><output class="toraku" name="toraku"></output></div>
+      <div class="col-12 col-lg-1 border"><input type="reset" value="リセット"></div>
+    </div>
   </form>
 CALC_FORM;
   }
