@@ -5,14 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <style>
-    div.control {
-      border-radius: 10px;
-      border: 1px solid black;
-      display: inline-flex;
-      margin: 10px;
-      padding: 0.2em 0.5em;
-    }
-
     div.table {
       display: table;
     }
@@ -93,23 +85,33 @@
   $form_num_plus_one = $form_num + 1;
   $form_num_minus_one = $form_num - 1;
   ?>
-  <div class="control">
-    <form method="GET" action="index.php">
-      <label>項目数：<input class="form_num" type="number" name="form_num" value="<?php print $form_num ?>"></label>
-      <input class="ctrl_button change_button" type="submit" value="変更">
-    </form>
-    <form method="GET" action="index.php">
-      <input type="hidden" name="form_num" value="<?php print $form_num_plus_one ?>">
-      <input class="ctrl_button add_button" type="submit" value="1行追加">
-    </form>
-    <form method="GET" action="index.php">
-      <input type="hidden" name="form_num" value="<?php print $form_num_minus_one ?>">
-      <input class="ctrl_button del_button" type="submit" value="1行削除">
-    </form>
-    <form method="GET" action="index.php">
-      <input type="hidden" name="form_num" value="<?php print $default_form_num ?>">
-      <input class="ctrl_button reset_button" type="submit" value="リセット">
-    </form>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <form method="GET" action="index.php">
+          <label>項目数：<input class="form_num" type="number" name="form_num" value="<?php print $form_num ?>"></label>
+          <input class="ctrl_button change_button" type="submit" value="変更">
+        </form>
+      </div>
+      <div class="col-4 col-lg-2">
+        <form method="GET" action="index.php">
+          <input type="hidden" name="form_num" value="<?php print $form_num_plus_one ?>">
+          <input class="ctrl_button add_button" type="submit" value="1行追加">
+        </form>
+      </div>
+      <div class="col-4 col-lg-2">
+        <form method="GET" action="index.php">
+          <input type="hidden" name="form_num" value="<?php print $form_num_minus_one ?>">
+          <input class="ctrl_button del_button" type="submit" value="1行削除">
+        </form>
+      </div>
+      <div class="col-4 col-lg-2">
+        <form method="GET" action="index.php">
+          <input type="hidden" name="form_num" value="<?php print $default_form_num ?>">
+          <input class="ctrl_button reset_button" type="submit" value="リセット">
+        </form>
+      </div>
+    </div>
   </div>
   <div class="table">
     <div class="tr" style="text-align: center;">
