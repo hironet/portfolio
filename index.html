@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="このサイトはITエンジニアHiroのポートフォリオサイトです。Hiroの制作物・スキル・キャリアをご紹介しております。">
+  <meta name="keywords" content="Hiro,Hiro エンジニア,Hiro プログラミング">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Hiroのポートフォリオ</title>
+  <style>
+    @media screen and (max-width: 480px) {
+      body {
+        padding-top: 30px;
+      }
+    }
+
+    #nav {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body id="top">
+  <header>
+    <nav id="nav" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" ia-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNavAltMarkup" class="collapse navbar-collapse justify-content-center">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#top">トップ</a>
+          <a class="nav-item nav-link" href="#profile">プロフィール</a>
+          <a class="nav-item nav-link" href="#my-product">制作物</a>
+          <a class="nav-item nav-link" href="#my-skill">スキル</a>
+          <a class="nav-item nav-link" href="#my-career">キャリア</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">Hiroのポートフォリオ</h1>
+        <hr class="my-4">
+        <p class="lead">ITエンジニアのHiroと申します。</p>
+        <p class="lead">このサイトは私のポートフォリオサイトです。</p>
+        <p class="lead">私の制作物・スキル・キャリアをご紹介しております。</p>
+      </div>
+    </div>
+    <div class="container">
+      <section>
+        <h1 id="profile" class="text-center my-5">プロフィール</h1>
+        <p>岡山市出身で大阪府在住のITエンジニアです。</p>
+        <p>大学時代は、工学部の情報系学科で、プログラミング・UNIX・ネットワーク（TCP/IP）を学びました。</p>
+        <p>大学院卒業後は、東京の独立系SIerに就職し、インフラエンジニアとして、サーバ・データベース・ネットワークなどに関わる仕事を行ってきました。</p>
+        <p>約7年勤務した後、メーカー系SIerに転職し、現在もインフラエンジニアとして仕事を行っています。</p>
+        <p>最も得意なことはプログラミングで、仕事ではシェルスクリプトやRubyでのツール開発、趣味ではWebサイト制作やWebアプリ開発を行っています。</p>
+        <p>サーバ・データベースの構築、ネットワークの設定からアプリケーション開発まで行うことができます。</p>
+      </section>
+      <section>
+        <h1 id="my-product" class="text-center my-5">制作物</h1>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">
+                <a href="https://note.hironet.org" target="_blank">Hiro's note</a>
+              </div>
+              <div class="card-body">
+                <p>WordPressで作成した私の技術メモです。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">
+                <a href="toraku-ritsu/index.php" target="_blank">騰落率計算ツール</a>
+              </div>
+              <div class="card-body">
+                <p>趣味の株式投資で、投資成績を簡単に計算できるよう作成しました。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">
+                <a href="tetris/index.php" target="_blank">テトリス</a>
+              </div>
+              <div class="card-body">
+                <p>JavaScriptで作成したテトリスです。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 id="my-skill" class="text-center my-5">スキル</h1>
+        <h2 class="text-center my-2">最近使用している技術</h2>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">クラウド (IaaS)</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">ConoHa VPS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">OS</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Linux (RHEL, CentOS, Ubuntu)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">ミドルウェア</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Docker</li>
+                <li class="list-group-item">Nginx</li>
+                <li class="list-group-item">Apache</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">データベース</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">MySQL, phpMyAdmin</li>
+               </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">アプリケーション・ツール</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Vim</li>
+                <li class="list-group-item">Visual Studio Code</li>
+                <li class="list-group-item">Git, GitHub</li>
+                <li class="list-group-item">Redmine</li>
+                <li class="list-group-item">WordPress</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">プログラミング言語</div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS, bootstrap</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">PHP</li>
+                <li class="list-group-item">Bash</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center my-2">以前使用していた技術</h2>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">クラウド (IaaS)</div>
+              <ul class="list-group">
+                <li class="list-group-item">Azure</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">仮想化</div>
+              <ul class="list-group">
+                <li class="list-group-item">VMware vSphere</li>
+                <li class="list-group-item">VMware vSAN</li>
+                <li class="list-group-item">VMware NSX</li>
+                <li class="list-group-item">KVM</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">OS</div>
+              <ul class="list-group">
+                <li class="list-group-item">UNIX (FreeBSD)</li>
+                <li class="list-group-item">Windows Server (2012R2, 2016)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">ミドルウェア</div>
+              <ul class="list-group">
+                <li class="list-group-item">ZABBIX</li>
+                <li class="list-group-item">Arcserve Backup</li>
+                <li class="list-group-item">Acronis Backup</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">データベース</div>
+              <ul class="list-group">
+                <li class="list-group-item">Oracle Database (10g, 11g)</li>
+                <li class="list-group-item">SAP Sybase Adaptive Server Enterprise</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">ネットワーク</div>
+              <ul class="list-group">
+                <li class="list-group-item">BIG-IP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">アプリケーション・ツール</div>
+              <ul class="list-group">
+                <li class="list-group-item">Chef</li>
+                <li class="list-group-item">Serverspec</li>
+                <li class="list-group-item">Vagrant</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card my-2">
+              <div class="card-header">プログラミング言語</div>
+              <ul class="list-group">
+                <li class="list-group-item">C</li>
+                <li class="list-group-item">Java</li>
+                <li class="list-group-item">Ruby</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 id="my-career" class="text-center my-5">キャリア</h1>
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <p class="text-center">2002年〜</p>
+          </div>
+          <div class="col-12 col-lg-10">
+            <p>高校2年の時、将来はITの世界で働くことを決意し、大学は工学部の情報系学科を目指すことにしました。</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <p class="text-center">2004年〜</p>
+          </div>
+          <div class="col-12 col-lg-10">
+            <p>悲願の大学に合格し、UNIXやプログラミングの演習、専門科目の勉強に打ち込みました。</p>
+            <p>独学で自作のPCにLinuxをインストールしたり、簡単なWebサイトを作成してインターネットに公開したりしていました。</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <p class="text-center">2007年〜</p>
+          </div>
+          <div class="col-12 col-lg-10">
+            <p>大学4年から大学院2年の間、ネットワークの研究室に配属され、TCP/IPの性能改善に関する研究を行いました。</p>
+            <p>TCP/IPの新しい方式を検討してそれをUNIXのOSに実装し、数台のPCで構築したテストネットワークでスループットを計測する日々を過ごしていました。</p>
+            <p>この時期に、プログラミング・UNIX・TCP/IPに関する知識とスキルは飛躍的に向上しました。</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <p class="text-center">2010年〜</p>
+          </div>
+          <div class="col-12 col-lg-10">
+            <p>東京の独立系SIerに就職し、ITエンジニアとしてのキャリアをスタートしました。</p>
+            <p>私はプログラミングが得意でしたので、アプリケーション開発の道を選ぶこともできたのですが、この頃はITインフラの世界に魅力を感じていたので、インフラエンジニアの道を選びました。</p>
+            <p>そして、顧客業務システムのサーバ・ストレージ・データベース・ネットワーク・ジョブ・監視・バックアップなど、ITインフラの幅広い領域を担当し、それらの構築や運用を行うことでスキルと経験を積み上げました。</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <p class="text-center">2015年〜</p>
+          </div>
+          <div class="col-12 col-lg-10">
+            <p>金融系の顧客向けに大規模なサーバ仮想化基盤を構築するプロジェクトのリーダーを務めました。</p>
+            <p>この時、はじめてITインフラの本格的な要件定義・設計・構築・テスト・移行の一通りの流れを経験しました。</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <p class="text-center">2017年〜</p>
+          </div>
+          <div class="col-12 col-lg-10">
+            <p>インフラエンジニアとして能力をさらに伸ばすため、メーカー系のSIerに転職しました。</p>
+            <p>ここではじめてDockerに出会い、これを使いこなしたシステムに衝撃を受けました。</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <p class="text-center">2020年〜</p>
+          </div>
+          <div class="col-12 col-lg-10">
+            <p>数年前からWebの技術に興味を持ち始めていたため、まずはWordPressで自分のブログを作るところからスタートしました。</p>
+            <p>その後現在に至るまで、Webサイト・アプリ開発について基礎から独学し、動的なWebサイト作成に挑戦しています。</p>
+          </div>
+        </div>
+      </section>
+      <hr class="featurette-divider">
+    </div>
+  </main>
+  <footer class="container">
+    <p class="float-right"><a href="#top">トップに戻る</a></p>
+    <p>ITエンジニア Hiro 2021</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script>
+    // ナビゲーションを使用したスクロール
+    (function () {
+      const scrollTrigger = document.querySelectorAll('a[href^="#"]');
+      for (let i = 0; i < scrollTrigger.length; i++) {
+        scrollTrigger[i].addEventListener('click', (e) => {
+          e.preventDefault();
+          let href = scrollTrigger[i].getAttribute('href');
+          let targetElement = document.getElementById(href.replace('#', ''));
+          const rect = targetElement.getBoundingClientRect().top;
+          const offset = window.pageYOffset;
+          const header = document.querySelector('#nav');
+          const headerHeight = header.offsetHeight;
+          const target = rect + offset - headerHeight;
+          window.scrollTo({
+            top: target,
+            behavior: 'smooth',
+          });
+        });
+      }
+    }());
+  </script>
+</body>
+</html>
