@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <style>
-    .ctrl_button {
+    .ctrl-button {
       border-radius: 4px;
       border-style: none;
       color: white;
@@ -15,27 +15,27 @@
       width: 80px;
     }
 
-    .ctrl_button:hover {
+    .ctrl-button:hover {
       opacity: 0.7;
     }
 
-    .ctrl_button:active {
+    .ctrl-button:active {
       top: 4px;
     }
 
-    #change_button {
+    #change-button {
       background-color: #1e90ff;
     }
 
-    #add_button {
+    #add-button {
       background-color: #32cd32;
     }
 
-    #del_button {
+    #del-button {
       background-color: #ff8c00;
     }
 
-    #reset_button {
+    #reset-button {
       background-color: #ff69b4;
     }
 
@@ -64,25 +64,25 @@
       <div class="col-12 col-lg-4">
         <form method="GET" action="index.php">
           <label>項目数：<input class="form_num" type="number" name="form_num" value="<?php print $form_num ?>" style="width: 50px;"></label>
-          <input id="change_button" class="ctrl_button" type="submit" value="変更">
+          <input id="change-button" class="ctrl-button" type="submit" value="変更">
         </form>
       </div>
       <div class="col-4 col-lg-2">
         <form method="GET" action="index.php">
           <input type="hidden" name="form_num" value="<?php print $form_num_plus_one ?>">
-          <input id="add_button" class="ctrl_button" type="submit" value="1行追加">
+          <input id="add-button" class="ctrl-button" type="submit" value="1行追加">
         </form>
       </div>
       <div class="col-4 col-lg-2">
         <form method="GET" action="index.php">
           <input type="hidden" name="form_num" value="<?php print $form_num_minus_one ?>">
-          <input id="del_button" class="ctrl_button" type="submit" value="1行削除">
+          <input id="del-button" class="ctrl-button" type="submit" value="1行削除">
         </form>
       </div>
       <div class="col-4 col-lg-2">
         <form method="GET" action="index.php">
           <input type="hidden" name="form_num" value="<?php print $default_form_num ?>">
-          <input id="reset_button" class="ctrl_button" type="submit" value="リセット">
+          <input id="reset-button" class="ctrl-button" type="submit" value="リセット">
         </form>
       </div>
     </div>
