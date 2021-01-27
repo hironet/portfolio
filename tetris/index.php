@@ -11,8 +11,14 @@
       touch-action: manipulation;
     }
 
-    .btn {
+    .ope-button {
+      border-radius: 4px;
+      border-style: none;
       color: white;
+      margin: 5px 5px;
+      padding: 0.8em 0.2em;
+      position: relative;
+      width: 70px;
     }
 
     #left-btn {
@@ -24,11 +30,11 @@
     }
 
     #right-btn {
-      background-color: #ff8c00;
+      background-color: #ff69b4;
     }
 
     #rotate-btn {
-      background-color: #ff69b4;
+      background-color: #ff8c00;
     }
   </style>
 </head>
@@ -39,10 +45,10 @@
         <canvas id="can"></canvas>
       </div>
       <div class="col-12 col-lg-4 text-center">
-        <button id="left-btn" class="btn btn-secondary btn-lg" type="button">左</button>
-        <button id="under-btn" class="btn btn-secondary btn-lg" type="button">下</button>
-        <button id="right-btn" class="btn btn-secondary btn-lg" type="button">右</button>
-        <button id="rotate-btn" class="btn btn-secondary btn-lg" type="button">回転</button>
+        <button id="left-btn" class="ope-button" type="button">左</button>
+        <button id="under-btn" class="ope-button" type="button">下</button>
+        <button id="rotate-btn" class="ope-button" type="button">回転</button>
+        <button id="right-btn" class="ope-button" type="button">右</button>
       </div>
     </div>
   </div>
