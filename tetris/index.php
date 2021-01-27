@@ -134,10 +134,10 @@
     let con = can.getContext("2d");
 
     // テトロミノの形
-    let tetro_t = Math.floor(Math.random() * (TETRO_TYPES.length - 1)) + 1;;
+    let tetro_t = Math.floor(Math.random() * (TETRO_TYPES.length - 1)) + 1;
 
     // テトロミノ本体
-    let tetro = TETRO_TYPES[tetro_t];;
+    let tetro = TETRO_TYPES[tetro_t];
 
     // テトロミノの座標
     let tetro_x = START_X;
