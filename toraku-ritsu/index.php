@@ -89,8 +89,8 @@
     <div class="row" style="text-align: center;">
       <div class="col-6 col-lg-1 border">No</div>
       <div class="col-6 col-lg-2 border">銘柄</div>
-      <div class="col-6 col-lg-2 border">変動前の株価</div>
-      <div class="col-6 col-lg-2 border">変動後の株価</div>
+      <div class="col-6 col-lg-2 border">変動前の価格</div>
+      <div class="col-6 col-lg-2 border">変動後の価格</div>
       <div class="col-6 col-lg-2 border">変動幅</div>
       <div class="col-6 col-lg-2 border">騰落率</div>
       <div class="col-12 col-lg-1 border"></div>
