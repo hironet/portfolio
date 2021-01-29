@@ -61,29 +61,27 @@
   ?>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-4">
+      <div class="col-12 col-lg-auto">
         <form method="GET" action="index.php">
           <label>項目数：<input class="form_num" type="number" name="form_num" value="<?php print $form_num ?>" style="width: 50px;"></label>
           <input id="change-button" class="ctrl-button" type="submit" value="変更">
         </form>
       </div>
-      <div class="col-4 col-lg-2">
-        <form method="GET" action="index.php">
-          <input type="hidden" name="form_num" value="<?php print $form_num_plus_one ?>">
-          <input id="add-button" class="ctrl-button" type="submit" value="1行追加">
-        </form>
-      </div>
-      <div class="col-4 col-lg-2">
-        <form method="GET" action="index.php">
-          <input type="hidden" name="form_num" value="<?php print $form_num_minus_one ?>">
-          <input id="del-button" class="ctrl-button" type="submit" value="1行削除">
-        </form>
-      </div>
-      <div class="col-4 col-lg-2">
-        <form method="GET" action="index.php">
-          <input type="hidden" name="form_num" value="<?php print $default_form_num ?>">
-          <input id="reset-button" class="ctrl-button" type="submit" value="リセット">
-        </form>
+      <div class="col-auto col-lg-auto">
+        <div class="btn-group" role="group">
+          <form method="GET" action="index.php">
+            <input type="hidden" name="form_num" value="<?php print $form_num_plus_one ?>">
+            <input id="add-button" class="ctrl-button" type="submit" value="1行追加">
+          </form>
+          <form method="GET" action="index.php">
+            <input type="hidden" name="form_num" value="<?php print $form_num_minus_one ?>">
+            <input id="del-button" class="ctrl-button" type="submit" value="1行削除">
+          </form>
+          <form method="GET" action="index.php">
+            <input type="hidden" name="form_num" value="<?php print $default_form_num ?>">
+            <input id="reset-button" class="ctrl-button" type="submit" value="リセット">
+          </form>
+        </div>
       </div>
     </div>
   </div>
