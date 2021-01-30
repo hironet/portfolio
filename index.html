@@ -347,7 +347,7 @@
           let targetElement = document.getElementById(href.replace('#', ''));
           const rect = targetElement.getBoundingClientRect().top;
           const offset = window.pageYOffset;
-          const header = document.querySelector('#nav');
+          const header = document.getElementById('nav');
           const headerHeight = header.offsetHeight;
           const target = rect + offset - headerHeight;
           window.scrollTo({
