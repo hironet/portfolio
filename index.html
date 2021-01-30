@@ -339,11 +339,11 @@
   <script>
     // ナビゲーションを使用したスクロール
     (function () {
-      const scrollTrigger = document.querySelectorAll('a[href^="#"]');
-      for (let i = 0; i < scrollTrigger.length; i++) {
-        scrollTrigger[i].addEventListener('click', (e) => {
+      const scrollTriggers = document.querySelectorAll('a[href^="#"]');
+      scrollTriggers.forEach(function (scrollTrigger) {
+        scrollTrigger.addEventListener('click', (e) => {
           e.preventDefault();
-          let href = scrollTrigger[i].getAttribute('href');
+          let href = scrollTrigger.getAttribute('href');
           let targetElement = document.getElementById(href.replace('#', ''));
           const rect = targetElement.getBoundingClientRect().top;
           const offset = window.pageYOffset;
@@ -355,7 +355,7 @@
             behavior: 'smooth',
           });
         });
-      }
+      });
     }());
   </script>
 </body>
