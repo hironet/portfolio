@@ -90,10 +90,11 @@
           <div class="col-12 col-lg-4">
             <div class="card my-2">
               <div class="card-header">
-                <a href="https://note.hironet.org">Hiro's note</a>
+                <a href="https://hironet.org/note">Hiro's note</a>
               </div>
               <div class="card-body">
-                <p>WordPressで作成した私の技術メモです。</p>
+                <p>私の技術メモです。</p>
+                <p><a href="https://github.com/hironet/note">ソースコード</a></p>
               </div>
             </div><!-- card -->
           </div><!-- col -->
