@@ -90,7 +90,7 @@
           <div class="col-12 col-lg-4">
             <div class="card my-2">
               <div class="card-header">
-                <a href="https://hironet.org/tech-note">Hiro's tech note</a>
+                <a href="/tech-note/">Hiro's tech note</a>
               </div>
               <div class="card-body">
                 <p>私の技術メモです。</p>
