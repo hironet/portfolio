@@ -87,7 +87,7 @@
       <div class="container">
         <h1 class="text-center">制作物</h1>
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">
                 <a href="/tech-note/">Hiro's tech note</a>
@@ -98,7 +98,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <a href="/shopping-history/">
                 <figure class="figure">
@@ -112,7 +112,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <a href="/toraku-ritsu/">
                 <figure class="figure">
@@ -126,9 +126,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-        </div><!-- row -->
-        <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <a href="/stock-purchase/">
                 <figure class="figure">
@@ -142,7 +140,7 @@
               </div>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">
                 <a href="/tetris/">テトリス</a>
@@ -161,7 +159,7 @@
         <h1 class="text-center">スキル</h1>
         <h2 class="text-center">最近使用している技術</h2>
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">クラウド (IaaS)</div>
               <ul class="list-group list-group-flush">
@@ -169,7 +167,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">OS</div>
               <ul class="list-group list-group-flush">
@@ -177,7 +175,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">ミドルウェア</div>
               <ul class="list-group list-group-flush">
@@ -187,9 +185,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-        </div><!-- row -->
-        <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">データベース</div>
                 <ul class="list-group list-group-flush">
@@ -197,7 +193,7 @@
                </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">アプリケーション・ツール</div>
               <ul class="list-group list-group-flush">
@@ -209,7 +205,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">プログラミング言語</div>
               <ul class="list-group list-group-flush">
@@ -224,7 +220,7 @@
         </div><!-- row -->
         <h2 class="text-center">以前使用していた技術</h2>
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">クラウド (IaaS)</div>
               <ul class="list-group">
@@ -233,7 +229,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">仮想化</div>
               <ul class="list-group">
@@ -244,7 +240,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">OS</div>
               <ul class="list-group">
@@ -256,7 +252,7 @@
           </div><!-- col -->
         </div><!-- row -->
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">ミドルウェア</div>
               <ul class="list-group">
@@ -266,7 +262,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">データベース</div>
               <ul class="list-group">
@@ -275,7 +271,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">ネットワーク</div>
               <ul class="list-group">
@@ -285,7 +281,7 @@
           </div><!-- col -->
         </div><!-- row -->
         <div class="row">
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">アプリケーション・ツール</div>
               <ul class="list-group">
@@ -295,7 +291,7 @@
               </ul>
             </div><!-- card -->
           </div><!-- col -->
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
             <div class="card my-2">
               <div class="card-header">プログラミング言語</div>
               <ul class="list-group">
