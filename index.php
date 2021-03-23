@@ -85,8 +85,8 @@
       </div><!-- col -->
     </div><!-- row -->
   </div><!-- container -->
+  <hr class="featurette-divider">
   <footer>
-    <hr class="featurette-divider">
     <div class="container text-center my-3">
       <small>&copy; <?= date('Y') ?> ITエンジニア Hiro</small>
     </div>
