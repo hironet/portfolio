@@ -65,9 +65,12 @@
     </div><!-- col -->
     <div class="col-12 col-md-6 col-lg-4">
       <div class="card my-2">
-        <div class="card-header">
-          <a href="/tetris/">テトリス</a>
-        </div>
+        <a href="/tetris/">
+          <figure class="figure">
+            <img class="figure-img card-img-top" src="img/tetris.webp" alt="テトリス">
+            <figcaption class="figure-caption text-center">テトリス</figcaption>
+          </figure>
+        </a>
         <div class="card-body">
           <p>JavaScriptで作成したテトリスです。</p>
           <p><a href="https://github.com/hironet/tetris">ソースコード</a></p>
