@@ -11,27 +11,15 @@
   <title>Hiroのポートフォリオ</title>
   <style>
     body {
-      padding-top: 2.0rem;
+      padding-top: 2rem;
+    }
+
+    section {
+      padding: 1rem;
     }
 
     #nav {
       opacity: 0.9;
-    }
-
-    #profile {
-
-    }
-
-    #my-product {
-
-    }
-
-    #my-skill {
-
-    }
-
-    #my-career {
-
     }
   </style>
 </head>
