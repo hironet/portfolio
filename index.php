@@ -14,8 +14,12 @@
       padding-top: 2rem;
     }
 
-    section {
-      padding: 1rem;
+    div.box {
+      border: solid 3px;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      position: relative;
     }
 
     #nav {
