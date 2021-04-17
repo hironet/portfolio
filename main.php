@@ -15,9 +15,12 @@
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <div class="card-header">
-            <a href="/tech-note/">Hiro's tech note</a>
-          </div>
+          <a href="/tech-note/">
+            <figure class="figure">
+              <img class="figure-img card-img-top" src="img/tech-note.webp" alt="Hiro's tech note">
+              <figcaption class="figure-caption text-center">Hiro's tech note</figcaption>
+            </figure>
+          </a>
           <div class="card-body">
             <p>私の技術メモです。</p>
             <p><a href="https://github.com/hironet/tech-note">ソースコード</a></p>
