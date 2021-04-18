@@ -17,7 +17,7 @@
         <div class="card my-2">
           <a href="/tech-note/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="img/tech-note.webp" alt="Hiro's tech note">
+              <img class="figure-img card-img-top" src="/portfolio/img/tech-note.webp" alt="Hiro's tech note">
               <figcaption class="figure-caption text-center">Hiro's tech note</figcaption>
             </figure>
           </a>
@@ -31,7 +31,7 @@
         <div class="card my-2">
           <a href="/shopping-history/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="img/shopping-history.webp" alt="買い物履歴管理システム">
+              <img class="figure-img card-img-top" src="/portfolio/img/shopping-history.webp" alt="買い物履歴管理システム">
               <figcaption class="figure-caption text-center">買い物履歴管理システム</figcaption>
             </figure>
           </a>
@@ -45,7 +45,7 @@
         <div class="card my-2">
           <a href="/toraku-ritsu/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="img/toraku-ritsu.webp" alt="騰落率計算ツール">
+              <img class="figure-img card-img-top" src="/portfolio/img/toraku-ritsu.webp" alt="騰落率計算ツール">
               <figcaption class="figure-caption text-center">騰落率計算ツール</figcaption>
             </figure>
           </a>
@@ -59,7 +59,7 @@
         <div class="card my-2">
           <a href="/stock-purchase/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="img/stock-purchase.webp" alt="株式買付金額計算ツール">
+              <img class="figure-img card-img-top" src="/portfolio/img/stock-purchase.webp" alt="株式買付金額計算ツール">
               <figcaption class="figure-caption text-center">株式買付金額計算ツール</figcaption>
             </figure>
           </a>
@@ -73,7 +73,7 @@
         <div class="card my-2">
           <a href="/tetris/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="img/tetris.webp" alt="テトリス">
+              <img class="figure-img card-img-top" src="/portfolio/img/tetris.webp" alt="テトリス">
               <figcaption class="figure-caption text-center">テトリス</figcaption>
             </figure>
           </a>
