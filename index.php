@@ -22,6 +22,11 @@
       position: relative;
     }
 
+    h2.skill-class {
+      font-size: 1.2rem;
+      text-decoration: underline;
+    }
+
     #nav {
       opacity: 0.9;
     }

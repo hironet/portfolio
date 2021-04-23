@@ -89,152 +89,25 @@
 <section id="my-skill">
   <div class="box" style="border-color: #f9a980;">
     <h1 class="text-center">スキル</h1>
-    <h2 class="text-center">最近使用している技術</h2>
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">クラウド (IaaS)</div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">ConoHa VPS</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">OS</div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Linux (Ubuntu)</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">ミドルウェア</div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Docker</li>
-            <li class="list-group-item">Nginx</li>
-            <li class="list-group-item">Apache</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">データベース</div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">MySQL, phpMyAdmin</li>
-           </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">アプリケーション・ツール</div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Vim</li>
-            <li class="list-group-item">Visual Studio Code</li>
-            <li class="list-group-item">Git, GitHub</li>
-            <li class="list-group-item">Redmine</li>
-            <li class="list-group-item">WordPress</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">プログラミング言語</div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">HTML</li>
-            <li class="list-group-item">CSS, bootstrap</li>
-            <li class="list-group-item">JavaScript</li>
-            <li class="list-group-item">PHP</li>
-            <li class="list-group-item">Bash</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-    </div><!-- row -->
-    <h2 class="text-center">以前使用していた技術</h2>
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">クラウド (IaaS)</div>
-          <ul class="list-group">
-            <li class="list-group-item">Azure</li>
-            <li class="list-group-item">IBM Cloud</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">仮想化</div>
-          <ul class="list-group">
-            <li class="list-group-item">VMware vSphere</li>
-            <li class="list-group-item">VMware vSAN</li>
-            <li class="list-group-item">VMware NSX</li>
-            <li class="list-group-item">KVM</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">OS</div>
-          <ul class="list-group">
-            <li class="list-group-item">UNIX (FreeBSD)</li>
-            <li class="list-group-item">Linux (RHEL, CentOS)</li>
-            <li class="list-group-item">Windows Server (2012R2, 2016)</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-    </div><!-- row -->
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">ミドルウェア</div>
-          <ul class="list-group">
-            <li class="list-group-item">ZABBIX</li>
-            <li class="list-group-item">Arcserve Backup</li>
-            <li class="list-group-item">Acronis Backup</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-          <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">データベース</div>
-          <ul class="list-group">
-            <li class="list-group-item">Oracle Database (10g, 11g)</li>
-            <li class="list-group-item">SAP Sybase Adaptive Server Enterprise</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">ネットワーク</div>
-          <ul class="list-group">
-            <li class="list-group-item">BIG-IP</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-    </div><!-- row -->
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">アプリケーション・ツール</div>
-          <ul class="list-group">
-            <li class="list-group-item">Chef</li>
-            <li class="list-group-item">Serverspec</li>
-            <li class="list-group-item">Vagrant</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="card my-2">
-          <div class="card-header">プログラミング言語</div>
-          <ul class="list-group">
-            <li class="list-group-item">C</li>
-            <li class="list-group-item">Java</li>
-            <li class="list-group-item">Ruby</li>
-          </ul>
-        </div><!-- card -->
-      </div><!-- col -->
-    </div><!-- row -->
-  </div><!-- box -->
+    <h2 class="skill-class">クラウド (IaaS)</h2>
+    <p>ConoHa VPS, Microsoft Azure, IBM Cloud</p>
+    <h2 class="skill-class">仮想化</h2>
+    <p>VMware vSphere, VMware vSAN, VMware NSX, KVM</p>
+    <h2 class="skill-class">OS</h2>
+    <p>Linux (Ubuntu, RHEL, CentOS), UNIX (FreeBSD), Windows Server (2012R2, 2016)</p>
+    <h2 class="skill-class">ミドルウェア</h2>
+    <p>Docker, Nginx, Apache, Sendmail, Samba, BIND, i-FILTER, ASTERIA Warp, Zabbix, Cacti, Avamar, NetBackup, Arcserve Backup, Acronis Backup</p>
+    <h2 class="skill-class">ネットワーク</h2>
+    <p>BIG-IP, Wireshark</p>
+    <h2 class="skill-class">データベース</h2>
+    <p>MySQL, phpMyAdmin, Oracle Database (10g, 11g), SAP Sybase Adaptive Server Enterprise</p>
+    <h2 class="skill-class">アプリケーション・ツール</h2>
+    <p>Vim, Visual Studio Code, Git, GitHub, Redmine, WordPress, Chef, Serverspec, Vagrant</p>
+    <h2 class="skill-class">グラフィック</h2>
+    <p>GIMP, Inkscape</p>
+    <h2 class="skill-class">コーディング・プログラミング</h2>
+    <p>HTML, CSS, bootstrap, JavaScript, PHP, Ruby, C, Java, Bash</p>
+  </div>
 </section>
 <section id="my-career">
   <div class="box" style="border-color: #d58d9d;">
