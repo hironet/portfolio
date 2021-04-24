@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1104.5353"
-   height="841.29779"
-   viewBox="0 0 292.24163 222.59338"
+   width="1183"
+   height="922.99994"
+   viewBox="0 0 313.00209 244.21041"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
@@ -194,20 +194,6 @@
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
          id="path1260" />
     </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow2Lend"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow2Lend"
-       inkscape:isstock="true">
-      <path
-         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path933" />
-    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -216,9 +202,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.67633602"
-     inkscape:cx="552.26764"
-     inkscape:cy="420.6489"
+     inkscape:zoom="0.61646808"
+     inkscape:cx="591.5"
+     inkscape:cy="461.49997"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -236,8 +222,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid1236"
-       originx="-4.6916762"
-       originy="-5.5482726" />
+       originx="5.6885419"
+       originy="5.6885419" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -255,9 +241,9 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-4.6916763,-5.5482719)">
+     transform="translate(5.6885416,5.6885424)">
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.19998;stroke-linecap:round"
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
        id="rect10"
        width="280.45831"
        height="169.33333"
@@ -266,7 +252,7 @@
        rx="5.6347218"
        ry="4.8696456" />
     <rect
-       style="fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
        id="rect12"
        width="259.29166"
        height="137.58334"
@@ -284,7 +270,7 @@
          id="tspan16"
          x="76.460594"
          y="80.101578"
-         style="stroke-width:0.264583"></tspan></text>
+         style="stroke-width:0.264583" /></text>
     <rect
        style="fill:#bfbfbf;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
        id="rect24"
@@ -494,7 +480,7 @@
        sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
-       d="M 71.480356,96.308334 71.789362,42.891888"
+       d="M 71.48323,96.308334 71.81641,42.333333"
        id="path2887"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -511,5 +497,14 @@
          x="52.916668"
          y="14.816613"
          style="font-size:4.93889px;stroke-width:0.264583">インターネット</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
+       id="rect115"
+       width="301.625"
+       height="232.83331"
+       x="3.0363722e-08"
+       y="-7.3016156e-07"
+       rx="6.0599842"
+       ry="6.6957626" />
   </g>
 </svg>
