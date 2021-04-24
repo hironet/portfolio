@@ -208,7 +208,7 @@
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1440"
      inkscape:window-height="777"
      inkscape:window-x="0"
@@ -233,7 +233,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -246,20 +246,20 @@
        style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
        id="rect10"
        width="280.45831"
-       height="169.33333"
+       height="142.875"
        x="10.583333"
-       y="52.916668"
+       y="68.791664"
        rx="5.6347218"
-       ry="4.8696456" />
+       ry="4.1087637" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
        id="rect12"
        width="259.29166"
-       height="137.58334"
+       height="121.70833"
        x="21.166666"
-       y="74.083336"
+       y="79.375"
        rx="5.7877603"
-       ry="5.0396819" />
+       ry="4.4581795" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -286,7 +286,7 @@
        width="68.791664"
        height="14.816669"
        x="37.041668"
-       y="149.22501"
+       y="138.64166"
        rx="5.5928183"
        ry="5.2916665" />
     <rect
@@ -295,12 +295,12 @@
        width="68.791664"
        height="14.816669"
        x="37.041668"
-       y="186.26666"
+       y="175.68332"
        rx="5.5928183"
        ry="5.2916665" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2386);marker-end:url(#marker1262)"
-       d="m 71.4375,111.125 v 38.10001"
+       d="m 71.4375,111.125 v 27.51666"
        id="path1256"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -308,7 +308,7 @@
        inkscape:connection-start="#rect24" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#marker1460)"
-       d="m 71.4375,164.04168 v 22.22498"
+       d="m 71.4375,153.45833 v 22.22499"
        id="path1258"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -331,9 +331,9 @@
        x="129.60985"
        y="145.64688"
        id="text1452"
-       transform="translate(5.7987594,4.3473613)"><tspan
-         x="40.047188"
-         y="153.73051"><tspan
+       transform="translate(5.8003883,4.346049)"><tspan
+         x="40.045559"
+         y="143.14848"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Apache+PHP</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <text
@@ -342,9 +342,9 @@
        x="133.26363"
        y="167.56955"
        id="text1456"
-       transform="translate(12.931393,4.346049)"><tspan
+       transform="translate(12.931393,4.3466899)"><tspan
          x="40.045559"
-         y="190.77348"><tspan
+         y="180.18949"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">MySQL</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <rect
@@ -353,7 +353,7 @@
        width="68.791664"
        height="14.816669"
        x="116.41665"
-       y="149.22501"
+       y="138.64166"
        rx="5.5928183"
        ry="5.2916665" />
     <rect
@@ -362,12 +362,12 @@
        width="68.791664"
        height="14.816669"
        x="116.41664"
-       y="186.26666"
+       y="175.68332"
        rx="5.5928183"
        ry="5.2916665" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2280);marker-end:url(#marker1496)"
-       d="m 150.81253,164.04168 v 22.22498"
+       d="m 150.81253,153.45834 v 22.22498"
        id="path1484"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
@@ -377,9 +377,9 @@
        x="129.60985"
        y="145.64688"
        id="text1488"
-       transform="translate(5.7987327,4.3473613)"><tspan
-         x="119.42219"
-         y="153.73051"><tspan
+       transform="translate(5.800373,4.346049)"><tspan
+         x="119.42056"
+         y="143.14848"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Apache+PHP</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <text
@@ -388,14 +388,14 @@
        x="133.26363"
        y="167.56955"
        id="text1492"
-       transform="translate(12.93137,4.346049)"><tspan
+       transform="translate(12.93137,4.3466899)"><tspan
          x="119.42056"
-         y="190.77348"><tspan
+         y="180.18949"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">MySQL</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2486);marker-end:url(#marker1738)"
-       d="m 105.83333,103.71667 h 44.97915 v 45.50834"
+       d="m 105.83333,103.71667 h 44.97915 v 34.92499"
        id="path1768"
        inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
@@ -403,18 +403,19 @@
        inkscape:connection-end="#rect1480" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="222.25"
-       y="174.625"
-       id="text1864"><tspan
+       style="font-style:normal;font-weight:normal;font-size:13.0866px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="179.211"
+       y="202.84242"
+       id="text1864"
+       transform="scale(1.23653,0.80871471)"><tspan
          sodipodi:role="line"
          id="tspan1862"
-         x="222.25"
-         y="174.625"
+         x="179.211"
+         y="202.84242"
          style="stroke-width:0.264583">...</tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2592);marker-end:url(#marker1876)"
-       d="m 105.83333,103.71667 h 124.3542 v 45.50834"
+       d="m 105.83333,103.71667 h 124.3542 v 34.92499"
        id="path1866"
        inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
@@ -423,34 +424,34 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="74.083336"
-       y="126.99992"
+       y="128.06386"
        id="text2106"><tspan
          sodipodi:role="line"
          id="tspan2104"
          x="74.083336"
-         y="126.99992"
+         y="128.06386"
          style="font-size:4.93889px;stroke-width:0.264583">hironet.org</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="153.45833"
-       y="126.99992"
+       y="127.07993"
        id="text2110"><tspan
          sodipodi:role="line"
          id="tspan2108"
          x="153.45833"
-         y="126.99992"
+         y="127.07993"
          style="font-size:4.93889px;stroke-width:0.264583">xxx.com</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="232.8334"
-       y="126.99992"
+       y="127.07993"
        id="text2114"><tspan
          sodipodi:role="line"
          id="tspan2112"
          x="232.8334"
-         y="126.99992"
+         y="127.07993"
          style="font-size:4.93889px;stroke-width:0.264583">yyy.com</tspan></text>
     <text
        xml:space="preserve"
@@ -459,8 +460,8 @@
        y="37.041668"
        id="text2692"
        transform="translate(226.20409,1.5510215)"><tspan
-         x="13.518583"
-         y="57.421915"><tspan
+         x="13.274614"
+         y="73.296915"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">ConoHa VPS</tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -469,18 +470,18 @@
        y="37.041668"
        id="text2708"
        transform="translate(215.30506,1.9094408)"><tspan
-         x="24.212627"
-         y="78.589883"><tspan
+         x="24.042721"
+         y="83.880899"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Linux</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">サーバ</tspan></tspan></text>
     <path
        style="fill:#bfbfbf;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 55.562499,42.333333 c 7.937501,0 23.812501,0 31.749999,0 3.209172,-1.604586 7.90892,-9.4665 0,-10.583333 0.113924,-6.714267 -2.612951,-10.942835 -10.583333,-10.583334 -5.391667,-7.45549 -12.634595,-7.221906 -15.875,0 -6.709795,2.114662 -5.350597,6.53475 -5.291666,10.583334 -4.05746,2.62612 -5.034041,5.93688 0,10.583333 z"
+       d="m 55.562499,58.208334 c 7.937501,0 23.812501,0 31.749999,0 3.209172,-1.604586 7.90892,-9.4665 0,-10.583333 0.113924,-6.714267 -2.612951,-10.942835 -10.583333,-10.583334 -5.391667,-7.45549 -12.634595,-7.221906 -15.875,0 -6.709795,2.114662 -5.350597,6.53475 -5.291666,10.583334 -4.05746,2.62612 -5.034041,5.93688 0,10.583333 z"
        id="path2885"
        sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
-       d="M 71.48323,96.308334 71.81641,42.333333"
+       d="m 71.490777,96.308334 0.273994,-38.1"
        id="path2887"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -490,21 +491,21 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="52.916668"
-       y="14.816613"
+       y="30.691612"
        id="text3113"><tspan
          sodipodi:role="line"
          id="tspan3111"
          x="52.916668"
-         y="14.816613"
+         y="30.691612"
          style="font-size:4.93889px;stroke-width:0.264583">インターネット</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
        id="rect115"
        width="301.625"
-       height="232.83331"
+       height="201.08333"
        x="3.0363722e-08"
-       y="-7.3016156e-07"
+       y="21.166666"
        rx="6.0599842"
-       ry="6.6957626" />
+       ry="5.7827044" />
   </g>
 </svg>
