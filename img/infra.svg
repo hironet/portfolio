@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1183"
-   height="922.99994"
-   viewBox="0 0 313.00209 244.21041"
+   height="803"
+   viewBox="0 0 313.00209 212.46042"
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
@@ -204,11 +204,11 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.61646808"
      inkscape:cx="591.5"
-     inkscape:cy="461.49997"
+     inkscape:cy="381.49997"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     showgrid="true"
+     showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="777"
      inkscape:window-x="0"
@@ -222,8 +222,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid1236"
-       originx="5.6885419"
-       originy="5.6885419" />
+       originx="5.6885421"
+       originy="-15.478125" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -233,7 +233,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -241,7 +241,7 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(5.6885416,5.6885424)">
+     transform="translate(5.6885416,-15.478124)">
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
        id="rect10"
@@ -476,12 +476,12 @@
            style="font-size:4.93889px;stroke-width:0.264583">サーバ</tspan></tspan></text>
     <path
        style="fill:#bfbfbf;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 55.562499,58.208334 c 7.937501,0 23.812501,0 31.749999,0 3.209172,-1.604586 7.90892,-9.4665 0,-10.583333 0.113924,-6.714267 -2.612951,-10.942835 -10.583333,-10.583334 -5.391667,-7.45549 -12.634595,-7.221906 -15.875,0 -6.709795,2.114662 -5.350597,6.53475 -5.291666,10.583334 -4.05746,2.62612 -5.034041,5.93688 0,10.583333 z"
+       d="m 55.562499,58.208334 h 31.749999 c 2.043663,-0.684888 4.760295,-6.981933 0,-10.583333 0.113924,-6.714267 -2.612951,-10.942835 -10.583333,-10.583334 -5.391667,-7.45549 -12.634595,-7.221906 -15.875,0 -6.709795,2.114662 -5.350597,6.53475 -5.291666,10.583334 -4.05746,2.62612 -5.034041,5.93688 0,10.583333 z"
        id="path2885"
        sodipodi:nodetypes="ccccccc" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
-       d="m 71.490777,96.308334 0.273994,-38.1"
+       d="m 71.495568,96.308334 0.298634,-38.1"
        id="path2887"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
