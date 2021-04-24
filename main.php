@@ -88,7 +88,7 @@
       <div class="col-12 text-center">
       <h2 class="mt-4">ポートフォリオのインフラ構成</h2>
         <figure class="figure">
-          <img class="figure-img" src="/portfolio/img/infra.svg" alt="ポートフォリオのインフラ構成" width="700">
+          <img class="figure-img img-fluid" src="/portfolio/img/infra.svg" alt="ポートフォリオのインフラ構成" width="700">
           <figcaption class="figure-caption">ポートフォリオのインフラ構成</figcaption>
         </figure>
       </div>
