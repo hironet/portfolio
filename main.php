@@ -86,7 +86,7 @@
     </div><!-- row -->
     <h2 class="mt-4 text-center">私の制作物を支えるITインフラ</h2>
     <ul>
-      <li>仮装専用サーバサービスのConoHa VPSでLinuxサーバを構築。</li>
+      <li>仮想専用サーバサービスのConoHa VPSでLinuxサーバを構築。</li>
       <li>Linuxサーバでは、いくつかのドメイン（hironet.org, xxx.com, yyy.com, &hellip;）でアクセスされるWebサイト・Webアプリが複数稼働。</li>
       <li>各ドメイン毎に、Apache・PHP・MySQLのDockerコンテナを実行し、コンテンツを提供。</li>
       <li>インターネットからのアクセスは、Nginxのリバースプロキシの機能を使用し、各ドメインのDockerコンテナに転送。</li>
