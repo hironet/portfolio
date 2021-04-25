@@ -203,7 +203,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70859278"
-     inkscape:cx="591.5"
+     inkscape:cx="367.81722"
      inkscape:cy="401.5"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -320,7 +320,7 @@
        x="127"
        y="116.41666"
        id="text1448"
-       transform="translate(14.392803,4.3334339)"><tspan
+       transform="translate(16.400146,4.3334415)"><tspan
          x="38.038216"
          y="100.81449"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Nginx</tspan><tspan
@@ -331,7 +331,7 @@
        x="129.60985"
        y="145.64688"
        id="text1452"
-       transform="translate(5.8003883,4.346049)"><tspan
+       transform="translate(6.0735435,4.346049)"><tspan
          x="38.036076"
          y="143.14848"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Apache + PHP</tspan><tspan
@@ -342,7 +342,7 @@
        x="133.26363"
        y="167.56955"
        id="text1456"
-       transform="translate(12.931393,4.3466899)"><tspan
+       transform="translate(14.938736,4.3466899)"><tspan
          x="38.038216"
          y="180.18949"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">MySQL</tspan><tspan
@@ -377,7 +377,7 @@
        x="129.60985"
        y="145.64688"
        id="text1488"
-       transform="translate(5.800373,4.346049)"><tspan
+       transform="translate(6.0735282,4.346049)"><tspan
          x="117.41107"
          y="143.14848"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Apache + PHP</tspan><tspan
@@ -388,7 +388,7 @@
        x="133.26363"
        y="167.56955"
        id="text1492"
-       transform="translate(12.93137,4.3466899)"><tspan
+       transform="translate(14.938709,4.3466899)"><tspan
          x="117.41322"
          y="180.18949"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">MySQL</tspan><tspan
@@ -480,8 +480,8 @@
        id="path2885"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.52916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9000001;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
-       d="m 71.495568,96.308334 0.298634,-38.1"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
+       d="m 71.38885,96.308334 -0.2502,-38.1"
        id="path2887"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
