@@ -84,14 +84,18 @@
         </div><!-- card -->
       </div><!-- col -->
     </div><!-- row -->
-    <div class="row">
-      <div class="col-12 text-center">
-      <h2 class="mt-4">ポートフォリオのインフラ構成</h2>
-        <figure class="figure">
-          <img class="figure-img img-fluid" src="/portfolio/img/infra.svg" alt="ポートフォリオのインフラ構成" width="700">
-          <figcaption class="figure-caption">ポートフォリオのインフラ構成</figcaption>
-        </figure>
-      </div>
+    <h2 class="mt-4 text-center">私の制作物を支えるITインフラ</h2>
+    <ul>
+      <li>仮装専用サーバサービスのConoHa VPSでLinuxサーバを構築。</li>
+      <li>Linuxサーバでは、いくつかのドメイン（hironet.org, xxx.com, yyy.com, &hellip;）でアクセスされるWebサイト・Webアプリが複数稼働。</li>
+      <li>各ドメイン毎に、Apache・PHP・MySQLのDockerコンテナを実行し、コンテンツを提供。</li>
+      <li>インターネットからのアクセスは、Nginxのリバースプロキシの機能を使用し、各ドメインのDockerコンテナに転送。</li>
+    </ul>
+    <div class="text-center">
+      <figure class="figure">
+        <img class="figure-img img-fluid" src="/portfolio/img/infra.svg" alt="私の制作物を支えるITインフラの構成図" width="700">
+        <figcaption class="figure-caption">私の制作物を支えるITインフラの構成図</figcaption>
+      </figure>
     </div>
   </div><!-- box -->
 </section>
