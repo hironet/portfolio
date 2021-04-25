@@ -9,7 +9,7 @@
   <meta name="keywords" content="Hiro,Hiro エンジニア,Hiro プログラミング">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="icon" href="/portfolio/img/favicon.svg" type="image/svg+xml">
-  <link rel="icon alternate" href="/portfolio/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/portfolio/img/apple-touch-icon.png">
   <title>Hiroのポートフォリオ</title>
   <style>
     body {
