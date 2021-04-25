@@ -202,13 +202,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.61646808"
+     inkscape:zoom="0.70859278"
      inkscape:cx="591.5"
-     inkscape:cy="381.49997"
+     inkscape:cy="401.5"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1440"
      inkscape:window-height="777"
      inkscape:window-x="0"
@@ -233,7 +233,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -249,17 +249,17 @@
        height="142.875"
        x="10.583333"
        y="68.791664"
-       rx="5.6347218"
-       ry="4.1087637" />
+       rx="5.2916665"
+       ry="5.2916665" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round"
        id="rect12"
        width="259.29166"
-       height="121.70833"
+       height="116.41666"
        x="21.166666"
-       y="79.375"
-       rx="5.7877603"
-       ry="4.4581795" />
+       y="84.666664"
+       rx="5.2916665"
+       ry="5.061594" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -272,32 +272,32 @@
          y="80.101578"
          style="stroke-width:0.264583" /></text>
     <rect
-       style="fill:#bfbfbf;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:#66b4ff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;fill-opacity:1"
        id="rect24"
        width="68.791664"
        height="14.816669"
        x="37.041668"
        y="96.308334"
-       rx="5.5928183"
-       ry="5.2916665" />
+       rx="2.6458333"
+       ry="2.6458333" />
     <rect
-       style="fill:#bfbfbf;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:#66dc47;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;fill-opacity:1"
        id="rect1250"
        width="68.791664"
        height="14.816669"
        x="37.041668"
        y="138.64166"
-       rx="5.5928183"
-       ry="5.2916665" />
+       rx="2.6458333"
+       ry="2.6458333" />
     <rect
-       style="fill:#bfbfbf;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:#debaff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;fill-opacity:1"
        id="rect1252"
        width="68.791664"
        height="14.816669"
        x="37.041668"
        y="175.68332"
-       rx="5.5928183"
-       ry="5.2916665" />
+       rx="2.6458333"
+       ry="2.6458333" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2386);marker-end:url(#marker1262)"
        d="m 71.4375,111.125 v 27.51666"
@@ -321,7 +321,7 @@
        y="116.41666"
        id="text1448"
        transform="translate(14.392803,4.3334339)"><tspan
-         x="40.045559"
+         x="38.038216"
          y="100.81449"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Nginx</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
@@ -332,9 +332,9 @@
        y="145.64688"
        id="text1452"
        transform="translate(5.8003883,4.346049)"><tspan
-         x="40.045559"
+         x="38.036076"
          y="143.14848"><tspan
-           style="font-size:4.93889px;stroke-width:0.264583">Apache+PHP</tspan><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">Apache + PHP</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -343,28 +343,28 @@
        y="167.56955"
        id="text1456"
        transform="translate(12.931393,4.3466899)"><tspan
-         x="40.045559"
+         x="38.038216"
          y="180.18949"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">MySQL</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <rect
-       style="fill:#bfbfbf;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:#66dc47;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;fill-opacity:1"
        id="rect1480"
        width="68.791664"
        height="14.816669"
        x="116.41665"
        y="138.64166"
-       rx="5.5928183"
-       ry="5.2916665" />
+       rx="2.6458333"
+       ry="2.6458333" />
     <rect
-       style="fill:#bfbfbf;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:#debaff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;fill-opacity:1"
        id="rect1482"
        width="68.791664"
        height="14.816669"
        x="116.41664"
        y="175.68332"
-       rx="5.5928183"
-       ry="5.2916665" />
+       rx="2.6458333"
+       ry="2.6458333" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2280);marker-end:url(#marker1496)"
        d="m 150.81253,153.45834 v 22.22498"
@@ -378,9 +378,9 @@
        y="145.64688"
        id="text1488"
        transform="translate(5.800373,4.346049)"><tspan
-         x="119.42056"
+         x="117.41107"
          y="143.14848"><tspan
-           style="font-size:4.93889px;stroke-width:0.264583">Apache+PHP</tspan><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">Apache + PHP</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -389,7 +389,7 @@
        y="167.56955"
        id="text1492"
        transform="translate(12.93137,4.3466899)"><tspan
-         x="119.42056"
+         x="117.41322"
          y="180.18949"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">MySQL</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
@@ -460,7 +460,7 @@
        y="37.041668"
        id="text2692"
        transform="translate(226.20409,1.5510215)"><tspan
-         x="13.274614"
+         x="13.43858"
          y="73.296915"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">ConoHa VPS</tspan></tspan></text>
     <text
@@ -470,8 +470,8 @@
        y="37.041668"
        id="text2708"
        transform="translate(215.30506,1.9094408)"><tspan
-         x="24.042721"
-         y="83.880899"><tspan
+         x="23.958792"
+         y="89.171915"><tspan
            style="font-size:4.93889px;stroke-width:0.264583">Linux</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">サーバ</tspan></tspan></text>
     <path
@@ -480,7 +480,7 @@
        id="path2885"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.52916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9000001;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
        d="m 71.495568,96.308334 0.298634,-38.1"
        id="path2887"
        inkscape:connector-type="polyline"
@@ -505,7 +505,35 @@
        height="201.08333"
        x="3.0363722e-08"
        y="21.166666"
-       rx="6.0599842"
-       ry="5.7827044" />
+       rx="5.2916665"
+       ry="5.2916665" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888999999999978px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1168);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="71.474487"
+       y="80.050522"
+       id="text1173"><tspan
+         x="0"
+         y="0"><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">SSL</tspan><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">による</tspan><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">暗号化通信</tspan></tspan></text>
+    <path
+       id="rect1185"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:3.9;stroke-dasharray:none"
+       d="m 108.47916,47.625 h 52.91667 c 1.46579,0 2.64583,1.180042 2.64583,2.645833 v 10.583334 c 0,1.465791 -1.18004,2.645833 -2.64583,2.645833 h -52.91667 c -1.46579,0 -2.64583,-1.180042 -2.64583,-2.645833 l 0,-2.371612 -34.39583,18.246611 34.39583,-23.87978 v -2.578553 c 0,-1.465791 1.18004,-2.645833 2.64583,-2.645833 z"
+       sodipodi:nodetypes="ssssssscccss" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888999999999978px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1185);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="126.29047"
+       y="46.885509"
+       id="text1183"
+       transform="translate(3.5848128,5.3385934)"><tspan
+         x="106.83066"
+         y="52.130899"><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">SSL</tspan><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">による</tspan><tspan
+           style="font-size:4.93889px;stroke-width:0.264583">暗号化通信</tspan></tspan></text>
   </g>
 </svg>
