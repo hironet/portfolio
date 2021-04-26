@@ -1,3 +1,7 @@
+<?php
+$contents_title = 'Hiroのポートフォリオ';
+$contents_desc = 'このサイトはITエンジニアHiroのポートフォリオサイトです。Hiroの制作物・スキル・キャリアをご紹介しております。';
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,11 +9,16 @@
 <?php include_once(__DIR__ . '/adsense.php'); ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="このサイトはITエンジニアHiroのポートフォリオサイトです。Hiroの制作物・スキル・キャリアをご紹介しております。">
+  <meta name="description" content="<?= $contents_desc ?>">
+  <meta name="og:url" content="https://hironet.org/portfolio/">
+  <meta name="og:title" content="<?= $contents_title ?>">
+  <meta name="og:image" content="https://hironet.org/portfolio/img/ogp.png">
+  <meta name="og:description" content="<?= $contents_desc ?>">
+  <meta name="og:type" content="profile">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="icon" href="/portfolio/img/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/portfolio/img/apple-touch-icon.png">
-  <title>Hiroのポートフォリオ</title>
+  <title><?= $contents_title ?></title>
   <style>
     body {
       padding-top: 2rem;
