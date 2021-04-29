@@ -103,7 +103,7 @@
   <div class="box" style="border-color: #f9a980;">
     <h1 class="text-center">スキル</h1>
     <h2 class="skill-class">クラウド (IaaS)</h2>
-    <p>ConoHa VPS, Microsoft Azure, IBM Cloud</p>
+    <p>AWS, Microsoft Azure, IBM Cloud, ConoHa VPS</p>
     <h2 class="skill-class">仮想化</h2>
     <p>VMware vSphere, VMware vSAN, VMware NSX, KVM</p>
     <h2 class="skill-class">OS</h2>
