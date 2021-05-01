@@ -103,11 +103,11 @@
   <div class="box" style="border-color: #f9a980;">
     <h1 class="text-center">スキル</h1>
     <h2 class="skill-class">クラウド (IaaS)</h2>
-    <p>AWS, Microsoft Azure, IBM Cloud, ConoHa VPS</p>
+    <p>AWS (EC2), Microsoft Azure, IBM Cloud, ConoHa VPS</p>
     <h2 class="skill-class">仮想化</h2>
     <p>VMware vSphere, VMware vSAN, VMware NSX, KVM</p>
     <h2 class="skill-class">OS</h2>
-    <p>Linux (Ubuntu, RHEL, CentOS), UNIX (FreeBSD), Windows Server (2012R2, 2016)</p>
+    <p>Linux (Amazon Linux 2, RHEL, CentOS, Ubuntu), UNIX (FreeBSD), Windows Server (2012R2, 2016)</p>
     <h2 class="skill-class">ミドルウェア</h2>
     <p>Docker, Nginx, Apache, Sendmail, Samba, BIND, i-FILTER, ASTERIA Warp, Zabbix, Cacti, Avamar, NetBackup, Arcserve Backup, Acronis Backup</p>
     <h2 class="skill-class">ネットワーク</h2>
