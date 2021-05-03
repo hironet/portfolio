@@ -727,7 +727,7 @@
        id="text2708"><tspan
          id="tspan104"><tspan
            style="font-size:4.93889px;stroke-width:0.264583"
-           id="tspan120">Amazon EC2 (Amazon Linux 2)</tspan><tspan
+           id="tspan142">Amazon EC2 (Amazon Linux 2)</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583"
            id="tspan102" /></tspan></text>
     <text
@@ -763,8 +763,8 @@
        height="15.875"
        x="296.33334"
        y="153.45833"
-       rx="5.2916665"
-       ry="3.96875" />
+       rx="2.6458333"
+       ry="2.6458333" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1054);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
@@ -772,7 +772,7 @@
        y="41.451233"
        id="text143"
        transform="translate(3.5582714,-0.05980916)"><tspan
-         x="297.69986"
+         x="296.73685"
          y="163.11445"><tspan
            style="font-size:4.23333px;stroke-width:0.264583">データバックアップ</tspan><tspan
            style="font-size:4.23333px;stroke-width:0.264583">用</tspan><tspan
