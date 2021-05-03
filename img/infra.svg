@@ -289,15 +289,6 @@
        y="100.54166"
        rx="5.2916665"
        ry="5.2916665" />
-    <rect
-       style="fill:#fecf8d;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
-       id="rect1480-3"
-       width="68.791664"
-       height="21.166676"
-       x="296.33334"
-       y="153.45833"
-       rx="2.6458333"
-       ry="2.6458333" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -455,7 +446,7 @@
            style="font-size:4.93889px;stroke-width:0.264583">MySQL</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <rect
-       style="fill:#66dc47;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:#66dc47;fill-opacity:1;stroke:#000000;stroke-width:1.058;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect1480"
        width="68.791664"
        height="14.816669"
@@ -597,23 +588,32 @@
          id="tspan1256">Amazon S3<tspan
    style="font-size:4.93889px;stroke-width:0.264583"
    id="tspan1252" /></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888999999999978px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect1480-3);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
-       x="361.96307"
-       y="199.95586"
-       id="text1262"
-       transform="translate(0.16194724,7.7355947)"><tspan
-         x="301.09618"
-         y="157.96488"><tspan
-           style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583">データバックアップ</tspan><tspan
-           style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583">用</tspan><tspan
-           style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583">バケット</tspan></tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1445);marker-end:url(#marker1569)"
        d="m 269.875,164.04166 h 26.45833"
        id="path1435"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:1;fill:#fecf8d;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1054"
+       width="68.791664"
+       height="21.166666"
+       x="296.33334"
+       y="153.45833"
+       rx="5.2916665"
+       ry="5.2916665" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93888999999999978px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect1054);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       x="316.13217"
+       y="207.81509"
+       id="text1262"
+       transform="translate(0.16251182,7.7355899)"><tspan
+         x="301.09562"
+         y="157.96488"><tspan
+           style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583">データバックアップ</tspan><tspan
+           style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583">用</tspan><tspan
+           style="font-size:4.23333px;text-align:center;text-anchor:middle;stroke-width:0.264583">バケット</tspan></tspan></text>
   </g>
 </svg>
