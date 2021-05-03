@@ -262,7 +262,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -473,7 +473,7 @@
        rx="2.6458333"
        ry="2.6458333" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.52916698;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2280);marker-end:url(#marker1496)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2280);marker-end:url(#marker1496)"
        d="m 150.81253,169.33335 v 22.22498"
        id="path1484"
        inkscape:connector-type="polyline"
@@ -502,7 +502,7 @@
            style="font-size:4.93889px;stroke-width:0.264583">コンテナ</tspan></tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2486);marker-end:url(#marker1738)"
-       d="m 105.80403,114.43229 h 45.14074 v 40.08439"
+       d="m 105.83333,119.59166 h 44.97915 v 34.92502"
        id="path1768"
        inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
@@ -522,7 +522,7 @@
          style="stroke-width:0.264583">...</tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2592);marker-end:url(#marker1876)"
-       d="m 105.80403,114.43229 h 124.51579 v 40.21667"
+       d="m 105.83333,119.59166 h 124.48649 v 35.0573"
        id="path1866"
        inkscape:connector-type="orthogonal"
        inkscape:connector-curvature="0"
@@ -568,7 +568,7 @@
        id="text2708"><tspan
          id="tspan104"><tspan
            style="font-size:4.93889px;stroke-width:0.264583"
-           id="tspan100">Amazon EC2 (Amazon Linux 2)</tspan><tspan
+           id="tspan120">Amazon EC2 (Amazon Linux 2)</tspan><tspan
            style="font-size:4.93889px;stroke-width:0.264583"
            id="tspan102" /></tspan></text>
     <text
@@ -582,7 +582,7 @@
    id="tspan1230" /></tspan></text>
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2897);marker-end:url(#marker2130)"
-       d="M 71.425719,112.18333 71.125301,58.208334"
+       d="M 71.399186,112.18333 71.120044,58.208334"
        id="path2887"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -599,21 +599,22 @@
    id="tspan1252" /></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93888999999999978px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect1480-3);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:4.93888999999999978px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect1480-3);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        x="426.41434"
        y="154.89003"
        id="text1262"
-       transform="translate(0.17694956,4.960371)"><tspan
+       transform="translate(0.1769343,4.960371)"><tspan
          x="306.03504"
          y="157.96488"><tspan
            style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583">データバックアップ</tspan><tspan
            style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583">用</tspan><tspan
-           dx="4.9388924" /></tspan><tspan
+           style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583">
+</tspan></tspan><tspan
          x="320.85171"
          y="164.19367"><tspan
            style="font-size:4.93889px;text-align:center;text-anchor:middle;stroke-width:0.264583">バケット</tspan></tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.52916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#marker1445);marker-end:url(#marker1569)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1445);marker-end:url(#marker1569)"
        d="m 269.875,164.04166 h 26.45833"
        id="path1435"
        inkscape:connector-type="polyline"
