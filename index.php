@@ -10,10 +10,10 @@ $contents_desc = 'このサイトはITエンジニアHiroのポートフォリ�
   <meta name="description" content="<?= $contents_desc ?>">
   <!-- OGP -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://hironet.org/portfolio/">
+  <meta name="twitter:url" content="https://engineer-hiro.com/portfolio/">
   <meta name="twitter:title" content="<?= $contents_title ?>">
   <meta name="twitter:description" content="<?= $contents_desc ?>">
-  <meta name="twitter:image" content="https://hironet.org/portfolio/img/ogp.png">
+  <meta name="twitter:image" content="https://engineer-hiro.com/portfolio/img/ogp.png">
   <!-- /OGP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="icon" href="/portfolio/img/favicon.svg" type="image/svg+xml">
