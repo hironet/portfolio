@@ -104,7 +104,7 @@
   <div class="box" style="border-color: #f9a980;">
     <h1 class="text-center">スキル</h1>
     <h2 class="skill-class">クラウド (IaaS)</h2>
-    <p>AWS (VPC, EC2, S3), Microsoft Azure, IBM Cloud, ConoHa VPS</p>
+    <p>AWS (VPC, EC2, S3, Route 53), Microsoft Azure, IBM Cloud, ConoHa VPS</p>
     <h2 class="skill-class">仮想化</h2>
     <p>VMware vSphere, VMware vSAN, VMware NSX, KVM</p>
     <h2 class="skill-class">OS</h2>
@@ -118,7 +118,7 @@
     <h2 class="skill-class">アプリケーション・ツール</h2>
     <p>Vim, Visual Studio Code, Git, GitHub, Redmine, WordPress, Chef, Serverspec, Vagrant</p>
     <h2 class="skill-class">グラフィック</h2>
-    <p>GIMP, Inkscape</p>
+    <p>Inkscape</p>
     <h2 class="skill-class">コーディング・プログラミング</h2>
     <p>HTML, CSS, bootstrap, JavaScript, PHP, Ruby, C, Java, Bash</p>
   </div>
