@@ -87,7 +87,7 @@
     <h2 class="mt-4 text-center">私の制作物を支えるITインフラ</h2>
     <ul>
       <li>AWS（Amazon Web Services）のAmazon EC2でLinuxサーバを構築。</li>
-      <li>Linuxサーバでは、いくつかのドメイン（hironet.org, xxx.com, yyy.com, &hellip;）のWebサイト・Webアプリが稼働。</li>
+      <li>Linuxサーバでは、いくつかのドメイン（engineer-hiro.com, xxx.com, yyy.com, &hellip;）のWebサイト・Webアプリが稼働。</li>
       <li>各Webサイト・Webアプリは、Apache・PHP・MySQLのDockerコンテナで実装。</li>
       <li>インターネットからのアクセスは、Nginxのリバースプロキシにより、各ドメインのDockerコンテナに転送。</li>
       <li>各Webサイト・Webアプリのデータバックアップは、Amazon S3のバケットに保存。</li>
