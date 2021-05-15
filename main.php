@@ -22,7 +22,7 @@
             </figure>
           </a>
           <div class="card-body">
-            <p>私の技術メモです。</p>
+            <p>私のテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。</p>
             <p><a href="https://github.com/hironet/tech-note">ソースコード</a></p>
           </div>
         </div><!-- card -->
