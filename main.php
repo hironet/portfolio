@@ -15,9 +15,9 @@
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="/tech-note/">
+          <a href="https://portfolio.engineer-hiro.com/tech-note/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="/portfolio/img/tech-note.webp" alt="Hiro's tech note">
+              <img class="figure-img card-img-top" src="/img/tech-note.webp" alt="Hiro's tech note">
               <figcaption class="figure-caption text-center">Hiro's tech note</figcaption>
             </figure>
           </a>
@@ -29,9 +29,9 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="/shopping-history/">
+          <a href="https://portfolio.engineer-hiro.com/shopping-history/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="/portfolio/img/shopping-history.webp" alt="買い物履歴管理システム">
+              <img class="figure-img card-img-top" src="/img/shopping-history.webp" alt="買い物履歴管理システム">
               <figcaption class="figure-caption text-center">買い物履歴管理システム</figcaption>
             </figure>
           </a>
@@ -43,9 +43,9 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="/toraku-ritsu/">
+          <a href="https://portfolio.engineer-hiro.com/toraku-ritsu/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="/portfolio/img/toraku-ritsu.webp" alt="騰落率計算ツール">
+              <img class="figure-img card-img-top" src="/img/toraku-ritsu.webp" alt="騰落率計算ツール">
               <figcaption class="figure-caption text-center">騰落率計算ツール</figcaption>
             </figure>
           </a>
@@ -57,9 +57,9 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="/stock-purchase/">
+          <a href="https://portfolio.engineer-hiro.com/stock-purchase/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="/portfolio/img/stock-purchase.webp" alt="株式買付金額計算ツール">
+              <img class="figure-img card-img-top" src="/img/stock-purchase.webp" alt="株式買付金額計算ツール">
               <figcaption class="figure-caption text-center">株式買付金額計算ツール</figcaption>
             </figure>
           </a>
@@ -71,9 +71,9 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="/tetris/">
+          <a href="https://portfolio.engineer-hiro.com/tetris/">
             <figure class="figure">
-              <img class="figure-img card-img-top" src="/portfolio/img/tetris.webp" alt="テトリス">
+              <img class="figure-img card-img-top" src="/img/tetris.webp" alt="テトリス">
               <figcaption class="figure-caption text-center">テトリス</figcaption>
             </figure>
           </a>
@@ -94,7 +94,7 @@
     </ul>
     <div class="text-center">
       <figure class="figure">
-        <img class="figure-img img-fluid" src="/portfolio/img/infra.svg" alt="私の制作物を支えるITインフラの構成図" width="700">
+        <img class="figure-img img-fluid" src="/img/infra.svg" alt="私の制作物を支えるITインフラの構成図" width="700">
         <figcaption class="figure-caption">私の制作物を支えるITインフラの構成図</figcaption>
       </figure>
     </div>
