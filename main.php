@@ -15,7 +15,7 @@
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://portfolio.engineer-hiro.com/tech-note/">
+          <a href="https://tech-note.engineer-hiro.com">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/tech-note.webp" alt="Hiro's tech note">
               <figcaption class="figure-caption text-center">Hiro's tech note</figcaption>
