@@ -29,7 +29,7 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://portfolio.engineer-hiro.com/shopping-history/">
+          <a href="https://shopping-history.engineer-hiro.com">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/shopping-history.webp" alt="買い物履歴管理システム">
               <figcaption class="figure-caption text-center">買い物履歴管理システム</figcaption>
@@ -43,7 +43,7 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://portfolio.engineer-hiro.com/toraku-ritsu/">
+          <a href="https://toraku-ritsu.engineer-hiro.com">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/toraku-ritsu.webp" alt="騰落率計算ツール">
               <figcaption class="figure-caption text-center">騰落率計算ツール</figcaption>
@@ -57,7 +57,7 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://portfolio.engineer-hiro.com/stock-purchase/">
+          <a href="https://stock-purchase.engineer-hiro.com">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/stock-purchase.webp" alt="株式買付金額計算ツール">
               <figcaption class="figure-caption text-center">株式買付金額計算ツール</figcaption>
@@ -71,7 +71,7 @@
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://portfolio.engineer-hiro.com/tetris/">
+          <a href="https://tetris.engineer-hiro.com">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/tetris.webp" alt="テトリス">
               <figcaption class="figure-caption text-center">テトリス</figcaption>
@@ -94,7 +94,7 @@
     </ul>
     <div class="text-center">
       <figure class="figure">
-        <img class="figure-img img-fluid" src="/img/infra.svg" alt="私の制作物を支えるITインフラの構成図" width="700">
+        <img class="figure-img img-fluid" src="/img/infra.svg" alt="私の制作物を支えるITインフラの構成図" width="800">
         <figcaption class="figure-caption">私の制作物を支えるITインフラの構成図</figcaption>
       </figure>
     </div>
@@ -120,7 +120,7 @@
     <h2 class="skill-class">グラフィック</h2>
     <p>Inkscape</p>
     <h2 class="skill-class">コーディング・プログラミング</h2>
-    <p>HTML, CSS, bootstrap, JavaScript, PHP, Ruby, C, Java, Bash</p>
+    <p>HTML, CSS, bootstrap, JavaScript, PHP, Laravel, Ruby, C, Java, Bash</p>
   </div>
 </section>
 <section id="my-career">
