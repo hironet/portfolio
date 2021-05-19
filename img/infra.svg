@@ -405,7 +405,7 @@
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1440"
      inkscape:window-height="777"
      inkscape:window-x="0"
@@ -449,12 +449,12 @@
        rx="5.2916665"
        ry="5.2916665" />
     <rect
-       style="fill:#fffac2;fill-opacity:1;stroke:#000000;stroke-width:0.793748;stroke-linecap:round"
+       style="fill:#fffac2;fill-opacity:1;stroke:#000000;stroke-width:0.793751;stroke-linecap:round"
        id="rect1238"
        width="79.374977"
-       height="116.41666"
+       height="42.333309"
        x="291.04169"
-       y="100.54166"
+       y="174.625"
        rx="5.2916665"
        ry="5.2916665" />
     <text
@@ -623,7 +623,7 @@
        rx="2.6458333"
        ry="2.6458333" />
     <rect
-       style="fill:#debaff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round"
+       style="fill:#debaff;fill-opacity:1;stroke:#000000;stroke-width:1.05833005;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect1482"
        width="68.791664"
        height="14.816669"
@@ -690,34 +690,34 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="74.083336"
-       y="143.93887"
+       y="136.36281"
        id="text2106"><tspan
          sodipodi:role="line"
          id="tspan2104"
          x="74.083336"
-         y="143.93887"
+         y="136.36281"
          style="font-size:4.93889px;stroke-width:0.264583">engineer-hiro.com</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="153.45833"
-       y="142.95494"
+       y="135.37889"
        id="text2110"><tspan
          sodipodi:role="line"
          id="tspan2108"
          x="153.45833"
-         y="142.95494"
+         y="135.37889"
          style="font-size:4.93889px;stroke-width:0.264583">xxx.com</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="232.8334"
-       y="142.95494"
+       y="135.37889"
        id="text2114"><tspan
          sodipodi:role="line"
          id="tspan2112"
          x="232.8334"
-         y="142.95494"
+         y="135.37889"
          style="font-size:4.93889px;stroke-width:0.264583">yyy.com</tspan></text>
     <text
        xml:space="preserve"
@@ -751,7 +751,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="334.38104"
-       y="107.81"
+       y="181.89339"
        id="text1258"><tspan
          id="tspan1256">Amazon S3<tspan
    style="font-size:4.93889px;stroke-width:0.264583"
@@ -762,7 +762,7 @@
        width="68.791664"
        height="15.875"
        x="296.33334"
-       y="153.45833"
+       y="190.50003"
        rx="2.6458333"
        ry="2.6458333" />
     <text
@@ -773,9 +773,122 @@
        id="text143"
        transform="translate(4.5212841,-0.05980916)"><tspan
          x="296.73685"
-         y="163.11445"><tspan
+         y="200.15547"><tspan
            style="font-size:4.23333px;stroke-width:0.264583">データバックアップ</tspan><tspan
            style="font-size:4.23333px;stroke-width:0.264583">用</tspan><tspan
            style="font-size:4.23333px;stroke-width:0.264583">バケット</tspan></tspan></text>
+    <rect
+       style="fill:#fffac2;fill-opacity:1;stroke:#000000;stroke-width:0.793751;stroke-linecap:round"
+       id="rect176"
+       width="79.374977"
+       height="68.791718"
+       x="291.04169"
+       y="100.54162"
+       rx="5.2916665"
+       ry="5.2916665" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;white-space:pre;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="333.96143"
+       y="107.81001"
+       id="text182"><tspan
+         id="tspan180">Route 53</tspan></text>
+    <rect
+       style="fill:#fecf8d;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect214"
+       width="68.791672"
+       height="52.916668"
+       x="296.33334"
+       y="111.125"
+       rx="2.6458333"
+       ry="2.6458333" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="328.08328"
+       y="118.69991"
+       id="text212"><tspan
+         sodipodi:role="line"
+         id="tspan210"
+         x="328.08328"
+         y="118.69991"
+         style="font-size:4.93889px;stroke-width:0.264583">ホストゾーン</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="301.625"
+       y="129.36281"
+       id="text1197"><tspan
+         sodipodi:role="line"
+         id="tspan1195"
+         x="301.625"
+         y="129.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">engineer-hiro.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="301.625"
+       y="136.36281"
+       id="text1201"><tspan
+         sodipodi:role="line"
+         id="tspan1199"
+         x="301.625"
+         y="136.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">xxx.engineer-hiro.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="301.625"
+       y="143.36281"
+       id="text1205"><tspan
+         sodipodi:role="line"
+         id="tspan1203"
+         x="301.625"
+         y="143.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">yyy.engineer-hiro.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="301.625"
+       y="149.37889"
+       id="text1209"><tspan
+         sodipodi:role="line"
+         id="tspan1207"
+         x="301.625"
+         y="149.37889"
+         style="font-size:4.93889px;stroke-width:0.264583">xxx.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="301.625"
+       y="154.29771"
+       id="text1213"><tspan
+         sodipodi:role="line"
+         id="tspan1211"
+         x="301.625"
+         y="154.29771"
+         style="font-size:4.93889px;stroke-width:0.264583">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="74.083336"
+       y="141.36281"
+       id="text1250"><tspan
+         sodipodi:role="line"
+         id="tspan1248"
+         x="74.083336"
+         y="141.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">xxx.engineer-hiro.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="74.083336"
+       y="146.36281"
+       id="text1255"><tspan
+         sodipodi:role="line"
+         id="tspan1253"
+         x="74.083336"
+         y="146.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">yyy.engineer-hiro.com</tspan></text>
   </g>
 </svg>
