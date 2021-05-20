@@ -690,34 +690,34 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="75.083054"
-       y="136.36281"
+       y="138.36281"
        id="text2106"><tspan
          sodipodi:role="line"
          id="tspan2104"
          x="75.083054"
-         y="136.36281"
+         y="138.36281"
          style="font-size:4.93889px;stroke-width:0.264583">engineer-hiro.com</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="154.45805"
-       y="135.37889"
+       y="137.37889"
        id="text2110"><tspan
          sodipodi:role="line"
          id="tspan2108"
          x="154.45805"
-         y="135.37889"
+         y="137.37889"
          style="font-size:4.93889px;stroke-width:0.264583">xxx.com</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="233.83365"
-       y="135.37889"
+       y="137.37889"
        id="text2114"><tspan
          sodipodi:role="line"
          id="tspan2112"
          x="233.83365"
-         y="135.37889"
+         y="137.37889"
          style="font-size:4.93889px;stroke-width:0.264583">yyy.com</tspan></text>
     <text
        xml:space="preserve"
@@ -816,25 +816,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="75.083054"
-       y="141.36281"
+       x="74.93602"
+       y="144.36281"
        id="text1250"><tspan
          sodipodi:role="line"
          id="tspan1248"
-         x="75.083054"
-         y="141.36281"
-         style="font-size:4.93889px;stroke-width:0.264583">xxx.engineer-hiro.com</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="75.083054"
-       y="146.36281"
-       id="text1255"><tspan
-         sodipodi:role="line"
-         id="tspan1253"
-         x="75.083054"
-         y="146.36281"
-         style="font-size:4.93889px;stroke-width:0.264583">yyy.engineer-hiro.com</tspan></text>
+         x="74.93602"
+         y="144.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">*.engineer-hiro.com</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -901,5 +890,27 @@
          x="301.625"
          y="153.37889"
          style="font-size:4.93889px;stroke-width:0.264583">yyy.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="154.20001"
+       y="144.36281"
+       id="text189"><tspan
+         sodipodi:role="line"
+         id="tspan187"
+         x="154.20001"
+         y="144.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">*.xxx.com</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="233.57802"
+       y="144.36281"
+       id="text193"><tspan
+         sodipodi:role="line"
+         id="tspan191"
+         x="233.57802"
+         y="144.36281"
+         style="font-size:4.93889px;stroke-width:0.264583">*.yyy.com</tspan></text>
   </g>
 </svg>
