@@ -87,7 +87,7 @@
     <h2 class="mt-4 text-center">私の制作物を支えるITインフラ</h2>
     <ul>
       <li>ITインフラには、AWS（Amazon Web Services）、Linux、Docker、GitHubなどのサービスや技術を使用。</li>
-      <li>Route 53を使用し、いくつかのドメイン（engineer-hiro.com, xxx.engineer-hiro.com, xxx.com, &hellip;）を所有。</li>
+      <li>Route 53を使用し、いくつかのドメイン（engineer-hiro.com, aaa.engineer-hiro.com, xxx.com, &hellip;）を所有。</li>
       <li>Amazon EC2でLinuxのインスタンスを実行。</li>
       <li>Linuxインスタンスでは、Webサイト・Webアプリを稼働させるためのApache・PHP・MySQLをDockerコンテナで実行。</li>
       <li>インターネットからのHTTPリクエストは、Nginxのリバースプロキシを使用し、宛先ドメインに応じて各Dockerコンテナに転送。</li>
