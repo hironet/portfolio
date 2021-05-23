@@ -15,7 +15,7 @@
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://tech-note.engineer-hiro.com">
+          <a href="https://tech-note.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/tech-note.webp" alt="Hiro's tech note">
               <figcaption class="figure-caption text-center">Hiro's tech note</figcaption>
@@ -23,13 +23,13 @@
           </a>
           <div class="card-body">
             <p>私のテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。</p>
-            <p><a href="https://github.com/hironet/tech-note">ソースコード</a></p>
+            <p><a href="https://github.com/hironet/tech-note" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
           </div>
         </div><!-- card -->
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://shopping-history.engineer-hiro.com">
+          <a href="https://shopping-history.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/shopping-history.webp" alt="買い物履歴管理システム">
               <figcaption class="figure-caption text-center">買い物履歴管理システム</figcaption>
@@ -37,13 +37,13 @@
           </a>
           <div class="card-body">
             <p>買い物履歴を記録し、出費を分かりやすく可視化するシステムです。</p>
-            <p><a href="https://github.com/hironet/shopping-history">ソースコード</a></p>
+            <p><a href="https://github.com/hironet/shopping-history" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
           </div>
         </div><!-- card -->
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://toraku-ritsu.engineer-hiro.com">
+          <a href="https://toraku-ritsu.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/toraku-ritsu.webp" alt="騰落率計算ツール">
               <figcaption class="figure-caption text-center">騰落率計算ツール</figcaption>
@@ -51,13 +51,13 @@
           </a>
           <div class="card-body">
             <p>株価や評価額の変動幅と変動率を計算するツールです。</p>
-            <p><a href="https://github.com/hironet/toraku-ritsu">ソースコード</a></p>
+            <p><a href="https://github.com/hironet/toraku-ritsu" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
           </div>
         </div><!-- card -->
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://stock-purchase.engineer-hiro.com">
+          <a href="https://stock-purchase.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/stock-purchase.webp" alt="株式買付金額計算ツール">
               <figcaption class="figure-caption text-center">株式買付金額計算ツール</figcaption>
@@ -65,13 +65,13 @@
           </a>
           <div class="card-body">
             <p>保有銘柄の評価額を均等にするための購入金額と購入株数を計算するツールです。</p>
-            <p><a href="https://github.com/hironet/stock-purchase">ソースコード</a></p>
+            <p><a href="https://github.com/hironet/stock-purchase" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
           </div>
         </div><!-- card -->
       </div><!-- col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
-          <a href="https://tetris.engineer-hiro.com">
+          <a href="https://tetris.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
             <figure class="figure">
               <img class="figure-img card-img-top" src="/img/tetris.webp" alt="テトリス">
               <figcaption class="figure-caption text-center">テトリス</figcaption>
@@ -79,7 +79,7 @@
           </a>
           <div class="card-body">
             <p>JavaScriptで作成したテトリスです。</p>
-            <p><a href="https://github.com/hironet/tetris">ソースコード</a></p>
+            <p><a href="https://github.com/hironet/tetris" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
           </div>
         </div><!-- card -->
       </div><!-- col -->
