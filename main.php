@@ -22,7 +22,7 @@
             </figure>
           </a>
           <div class="card-body">
-            <p>私のテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。</p>
+            <p>私のテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。Laravelで作成しています。</p>
             <p><a href="https://github.com/hironet/tech-note" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
           </div>
         </div><!-- card -->
