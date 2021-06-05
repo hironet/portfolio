@@ -23,7 +23,7 @@
           </a>
           <div class="card-body">
             <p>私のテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。PHP (Laravel) で作成しています。</p>
-            <p><a href="https://github.com/hironet/tech-note" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
+            <a href="https://github.com/hironet/tech-note" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
           </div>
         </div><!-- card -->
       </div><!-- col -->
@@ -37,7 +37,7 @@
           </a>
           <div class="card-body">
             <p>買い物履歴を記録し、出費を分かりやすく可視化するシステムです。PHPで作成しています。</p>
-            <p><a href="https://github.com/hironet/shopping-history" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
+            <a href="https://github.com/hironet/shopping-history" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
           </div>
         </div><!-- card -->
       </div><!-- col -->
@@ -51,7 +51,7 @@
           </a>
           <div class="card-body">
             <p>株価や評価額の変動幅と変動率を計算するツールです。PHPで作成しています。</p>
-            <p><a href="https://github.com/hironet/toraku-ritsu" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
+            <a href="https://github.com/hironet/toraku-ritsu" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
           </div>
         </div><!-- card -->
       </div><!-- col -->
@@ -65,7 +65,7 @@
           </a>
           <div class="card-body">
             <p>保有銘柄の評価額を均等にするための購入金額と購入株数を計算するツールです。PHPで作成しています。</p>
-            <p><a href="https://github.com/hironet/stock-purchase" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
+            <a href="https://github.com/hironet/stock-purchase" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
           </div>
         </div><!-- card -->
       </div><!-- col -->
@@ -79,7 +79,7 @@
           </a>
           <div class="card-body">
             <p>JavaScriptで作成したテトリスです。</p>
-            <p><a href="https://github.com/hironet/tetris" target="_blank" rel="noreferrer noopener">ソースコード</a></p>
+            <a href="https://github.com/hironet/tetris" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
           </div>
         </div><!-- card -->
       </div><!-- col -->
