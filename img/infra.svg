@@ -430,7 +430,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -771,7 +771,7 @@
        x="257.15872"
        y="41.451233"
        id="text143"
-       transform="translate(4.5212841,-0.05980916)"><tspan
+       transform="translate(11.13587,-0.05912251)"><tspan
          x="296.73685"
          y="200.15547"><tspan
            style="font-size:4.23333px;stroke-width:0.264583">データバックアップ</tspan><tspan
