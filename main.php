@@ -7,7 +7,7 @@
     <p>約7年勤務した後、メーカー系SIerに転職し、現在もインフラエンジニアとして仕事を行っています。</p>
     <p>最も得意なことはプログラミングで、仕事ではスクリプト言語でのツール開発、趣味ではWebサイト制作やWebアプリ開発を行っています。</p>
     <p>サーバ・データベースの構築、ネットワークの設定からアプリケーション開発まで行うことができます。</p>
-  </div>
+  </div><!-- /.box -->
 </section>
 <section id="my-product">
   <div class="box" style="border-color: #95ccff;">
@@ -25,9 +25,9 @@
             <p>私のテクノロジーノートです。私の学習や実践のために、今までに調査したことを残しています。PHP (Laravel) で作成しています。</p>
             <a href="https://tech-note.engineer-hiro.com" target="_blank" rel="noreferrer noopener" class="btn btn-primary btn-sm">サイト</a>
             <a href="https://github.com/hironet/tech-note" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
-          </div>
-        </div><!-- card -->
-      </div><!-- col -->
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /.col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
           <a href="https://shopping-history.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
@@ -40,9 +40,9 @@
             <p>買い物履歴を記録し、出費を分かりやすく可視化するシステムです。PHPで作成しています。</p>
             <a href="https://shopping-history.engineer-hiro.com" target="_blank" rel="noreferrer noopener" class="btn btn-primary btn-sm">サイト</a>
             <a href="https://github.com/hironet/shopping-history" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
-          </div>
-        </div><!-- card -->
-      </div><!-- col -->
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /.col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
           <a href="https://toraku-ritsu.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
@@ -55,9 +55,9 @@
             <p>株価や評価額の変動幅と変動率を計算するツールです。PHPで作成しています。</p>
             <a href="https://toraku-ritsu.engineer-hiro.com" target="_blank" rel="noreferrer noopener" class="btn btn-primary btn-sm">サイト</a>
             <a href="https://github.com/hironet/toraku-ritsu" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
-          </div>
-        </div><!-- card -->
-      </div><!-- col -->
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /.col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
           <a href="https://stock-purchase.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
@@ -70,9 +70,9 @@
             <p>保有銘柄の評価額を均等にするための購入金額と購入株数を計算するツールです。PHPで作成しています。</p>
             <a href="https://stock-purchase.engineer-hiro.com" target="_blank" rel="noreferrer noopener" class="btn btn-primary btn-sm">サイト</a>
             <a href="https://github.com/hironet/stock-purchase" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
-          </div>
-        </div><!-- card -->
-      </div><!-- col -->
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /.col -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
           <a href="https://tetris.engineer-hiro.com" target="_blank" rel="noreferrer noopener">
@@ -85,10 +85,10 @@
             <p>JavaScriptで作成したテトリスです。</p>
             <a href="https://tetris.engineer-hiro.com" target="_blank" rel="noreferrer noopener" class="btn btn-primary btn-sm">サイト</a>
             <a href="https://github.com/hironet/tetris" target="_blank" rel="noreferrer noopener" class="btn btn-secondary btn-sm">ソースコード</a>
-          </div>
-        </div><!-- card -->
-      </div><!-- col -->
-    </div><!-- row -->
+          </div><!-- /.card-body -->
+        </div><!-- /.card -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
     <h2 class="mt-4 text-center">私の制作物を支えるITインフラ</h2>
     <ul>
       <li>ITインフラには、AWS（Amazon Web Services）、Linux、Docker、GitHubなどのサービスや技術を使用。</li>
@@ -104,8 +104,8 @@
         <img class="figure-img img-fluid" src="/img/infra.svg" alt="私の制作物を支えるITインフラの構成図" width="800">
         <figcaption class="figure-caption">私の制作物を支えるITインフラの構成図</figcaption>
       </figure>
-    </div>
-  </div><!-- box -->
+    </div><!-- /.text-center -->
+  </div><!-- /.box -->
 </section>
 <section id="my-skill">
   <div class="box" style="border-color: #f9a980;">
@@ -128,7 +128,7 @@
     <p>Inkscape</p>
     <h2 class="skill-class">コーディング・プログラミング</h2>
     <p>HTML, CSS, bootstrap, JavaScript, PHP, Laravel, Ruby, C, Java, Bash</p>
-  </div>
+  </div><!-- /.box -->
 </section>
 <section id="my-career">
   <div class="box" style="border-color: #d58d9d;">
@@ -140,7 +140,7 @@
       <div class="col-12 col-lg-10">
         <p>高校2年の時、将来はITの世界で働くことを決意し、大学は工学部の情報系学科を目指すことにしました。</p>
       </div>
-    </div><!-- row -->
+    </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
         <p class="text-center">2004年〜</p>
@@ -149,7 +149,7 @@
         <p>悲願の大学に合格し、UNIXやプログラミングの演習、専門科目の勉強に打ち込みました。</p>
         <p>独学で自作のPCにLinuxをインストールしたり、簡単なWebサイトを作成してインターネットに公開したりしていました。</p>
       </div>
-    </div><!-- row -->
+    </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
         <p class="text-center">2007年〜</p>
@@ -159,7 +159,7 @@
         <p>TCP/IPの新しい方式を検討してそれをUNIXのOSに実装し、数台のPCで構築したテストネットワークでスループットを計測する日々を過ごしていました。</p>
         <p>この時期に、プログラミング・UNIX・TCP/IPに関する知識とスキルは飛躍的に向上しました。</p>
       </div>
-    </div><!-- row -->
+    </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
         <p class="text-center">2010年〜</p>
@@ -169,7 +169,7 @@
         <p>私はプログラミングが得意でしたので、アプリケーション開発の道を選ぶこともできたのですが、この頃はITインフラの世界に魅力を感じていたので、インフラエンジニアの道を選びました。</p>
         <p>そして、顧客業務システムのサーバ・ストレージ・データベース・ネットワーク・ジョブ・監視・バックアップなど、ITインフラの幅広い領域を担当し、それらの構築や運用を行うことでスキルと経験を積み上げました。</p>
       </div>
-    </div><!-- row -->
+    </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
         <p class="text-center">2015年〜</p>
@@ -178,7 +178,7 @@
         <p>金融系の顧客向けに大規模なサーバ仮想化基盤を構築するプロジェクトのリーダーを務めました。</p>
         <p>この時、はじめてITインフラの本格的な要件定義・設計・構築・テスト・移行の一通りの流れを経験しました。</p>
       </div>
-    </div><!-- row -->
+    </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
         <p class="text-center">2017年〜</p>
@@ -187,7 +187,7 @@
         <p>ITエンジニアとして能力をさらに伸ばすため、メーカー系のSIerに転職しました。</p>
         <p>ここではじめてDockerに出会い、これを使いこなしたシステムに衝撃を受けました。</p>
       </div>
-    </div><!-- row -->
+    </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
         <p class="text-center">2020年〜</p>
@@ -196,6 +196,6 @@
         <p>数年前からWebの技術に興味を持ち始めていたため、まずはWordPressで自分のブログを作るところからスタートしました。</p>
         <p>その後現在に至るまで、Webサイト・アプリ開発について基礎から独学し、動的なWebサイト作成に挑戦しています。</p>
       </div>
-    </div><!-- row -->
-  </div><!-- box -->
+    </div><!-- /.row -->
+  </div><!-- /.box -->
 </section>
