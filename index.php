@@ -67,8 +67,8 @@ $contents_desc = 'このサイトはITエンジニアHiroのポートフォリ�
               <a class="nav-link" href="#my-career">キャリア</a>
             </li>
           </ul>
-        </div>
-      </div><!-- container-fluid -->
+        </div><!-- /#navbarNav -->
+      </div><!-- /.container-fluid -->
     </nav>
   </header>
   <div class="bg-light p-3 p-sm-5 mt-4 mb-4 border-top">
@@ -78,7 +78,7 @@ $contents_desc = 'このサイトはITエンジニアHiroのポートフォリ�
       <p class="lead">ITエンジニアのHiroと申します。</p>
       <p class="lead">このサイトは私のポートフォリオサイトです。</p>
       <p class="lead">私の制作物・スキル・キャリアをご紹介しております。</p>
-    </div><!-- container -->
+    </div><!-- /.container -->
   </div>
   <div class="container">
     <div class="row">
@@ -86,14 +86,14 @@ $contents_desc = 'このサイトはITエンジニアHiroのポートフォリ�
         <main>
 <?php include_once(__DIR__ . '/main.php'); ?>
         </main>
-      </div><!-- col -->
+      </div><!-- /.col -->
       <div class="col-12 col-lg-3">
         <aside>
 <?php include_once(__DIR__ . '/sidebar.php'); ?>
         </aside>
-      </div><!-- col -->
-    </div><!-- row -->
-  </div><!-- container -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
   <hr class="featurette-divider">
   <footer>
     <div class="container text-center my-3">
