@@ -40,6 +40,47 @@ $contents_desc = 'このサイトはITエンジニアHiroのポートフォリ�
     #nav {
       opacity: 0.9;
     }
+
+  /* ページトップに戻るボタン */
+  button#page-top {
+    /* buttonタグのリセットCSS */
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+
+    /* ボタンの装飾 */
+    align-items: center;
+    background-color: #212529;
+    border-radius: 50%;
+    bottom: 15px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    opacity: 0.7;
+    position: fixed;
+    right: 15px;
+    transition: all 0.3s ease;
+    width: 50px;
+    z-index: 100;
+  }
+
+  /* ページトップに戻るボタン：矢印 */
+  button#page-top::before {
+    border-right: solid 3px #fff;
+    border-top: solid 3px #fff;
+    content: "";
+    height: 12px;
+    margin-bottom: -6px;
+    transform: rotate(-45deg);
+    width: 12px;
+  }
+
+  /* ページトップに戻るボタン：ホバー時 */
+  button#page-top:hover {
+    transform: scale(1.1);
+  }
   </style>
 </head>
 <body id="top">
@@ -99,6 +140,7 @@ $contents_desc = 'このサイトはITエンジニアHiroのポートフォリ�
     <div class="container text-center my-3">
       <small>&copy; <?= date('Y') ?> ITエンジニアHiro</small>
     </div>
+    <button id="page-top"></button>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
   <script src="https://tech-note.engineer-hiro.com/js/common.js"></script>
