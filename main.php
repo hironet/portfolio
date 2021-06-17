@@ -1,4 +1,4 @@
-<section id="profile">
+<article id="profile">
   <div class="box p-4" style="border-color: #9fca99;">
     <h1 class="text-center">プロフィール</h1>
     <p>岡山市出身で大阪府在住のITエンジニアです。</p>
@@ -8,8 +8,8 @@
     <p>最も得意なことはプログラミングで、仕事ではスクリプト言語でのツール開発、趣味ではWebサイト制作やWebアプリ開発を行っています。</p>
     <p>サーバ・データベースの構築、ネットワークの設定からアプリケーション開発まで行うことができます。</p>
   </div><!-- /.box -->
-</section>
-<section id="my-product">
+</article>
+<article id="my-product">
   <div class="box p-4" style="border-color: #95ccff;">
     <h1 class="text-center">制作物</h1>
     <div class="row">
@@ -106,8 +106,8 @@
       </figure>
     </div><!-- /.text-center -->
   </div><!-- /.box -->
-</section>
-<section id="my-skill">
+</article>
+<article id="my-skill">
   <div class="box p-4" style="border-color: #f9a980;">
     <h1 class="text-center">スキル</h1>
     <h2 class="skill-class">クラウド (IaaS)</h2>
@@ -129,8 +129,8 @@
     <h2 class="skill-class">コーディング・プログラミング</h2>
     <p>HTML, CSS, bootstrap, JavaScript, PHP, Laravel, Ruby, C, Java, Bash</p>
   </div><!-- /.box -->
-</section>
-<section id="my-career">
+</article>
+<article id="my-career">
   <div class="box p-4" style="border-color: #d58d9d;">
     <h1 class="text-center">キャリア</h1>
     <div class="row">
@@ -198,4 +198,4 @@
       </div>
     </div><!-- /.row -->
   </div><!-- /.box -->
-</section>
+</article>
