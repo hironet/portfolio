@@ -1,5 +1,5 @@
 <section id="profile">
-  <div class="box" style="border-color: #9fca99;">
+  <div class="box p-4" style="border-color: #9fca99;">
     <h1 class="text-center">プロフィール</h1>
     <p>岡山市出身で大阪府在住のITエンジニアです。</p>
     <p>大学時代は、工学部の情報系学科で、プログラミング・UNIX・ネットワーク（TCP/IP）を学びました。</p>
@@ -10,7 +10,7 @@
   </div><!-- /.box -->
 </section>
 <section id="my-product">
-  <div class="box" style="border-color: #95ccff;">
+  <div class="box p-4" style="border-color: #95ccff;">
     <h1 class="text-center">制作物</h1>
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4">
@@ -108,7 +108,7 @@
   </div><!-- /.box -->
 </section>
 <section id="my-skill">
-  <div class="box" style="border-color: #f9a980;">
+  <div class="box p-4" style="border-color: #f9a980;">
     <h1 class="text-center">スキル</h1>
     <h2 class="skill-class">クラウド (IaaS)</h2>
     <p>AWS (VPC, EC2, S3, Route 53), Microsoft Azure, IBM Cloud, ConoHa VPS</p>
@@ -131,7 +131,7 @@
   </div><!-- /.box -->
 </section>
 <section id="my-career">
-  <div class="box" style="border-color: #d58d9d;">
+  <div class="box p-4" style="border-color: #d58d9d;">
     <h1 class="text-center">キャリア</h1>
     <div class="row">
       <div class="col-12 col-lg-2">
