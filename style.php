@@ -6,9 +6,26 @@ body {
   opacity: 0.9;
 }
 
-h2.skill-class {
-  font-size: 1.2rem;
+h1.title {
+  font-size: 2rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+h2.title {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+h2.skill {
+  font-size: 1.4rem;
   text-decoration: underline;
+}
+
+h2.career {
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* ページトップに戻るボタン */
