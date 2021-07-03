@@ -1,6 +1,6 @@
 <article id="profile">
   <div class="box p-3" style="border-color: #9fca99;">
-    <h1 class="text-center">プロフィール</h1>
+    <h1 class="title">プロフィール</h1>
     <p>岡山市出身で大阪府在住のITエンジニアです。</p>
     <p>大学時代は、工学部の情報系学科で、プログラミング・UNIX・ネットワーク（TCP/IP）を学びました。</p>
     <p>大学院卒業後は、東京の独立系SIerに就職し、インフラエンジニアとして、サーバ・データベース・ネットワークなどに関わる仕事を行ってきました。</p>
@@ -11,7 +11,7 @@
 </article>
 <article id="my-product">
   <div class="box p-3" style="border-color: #95ccff;">
-    <h1 class="text-center">制作物</h1>
+    <h1 class="title">制作物</h1>
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card my-2">
@@ -89,7 +89,7 @@
         </div><!-- /.card -->
       </div><!-- /.col -->
     </div><!-- /.row -->
-    <h2 class="mt-4 text-center">私の制作物を支えるITインフラ</h2>
+    <h2 class="title">私の制作物を支えるITインフラ</h2>
     <ul>
       <li>ITインフラには、AWS（Amazon Web Services）、Linux、Docker、GitHubなどのサービスや技術を使用。</li>
       <li>Route 53を使用し、いくつかのドメイン（engineer-hiro.com, tech-note.engineer-hiro.com, ???.com, &hellip;）を所有。</li>
@@ -109,33 +109,33 @@
 </article>
 <article id="my-skill">
   <div class="box p-3" style="border-color: #f9a980;">
-    <h1 class="text-center">スキル</h1>
-    <h2 class="skill-class">クラウド (IaaS)</h2>
+    <h1 class="title">スキル</h1>
+    <h2 class="skill">クラウド (IaaS)</h2>
     <p>AWS (VPC, EC2, S3, Route 53), Microsoft Azure, IBM Cloud, ConoHa VPS</p>
-    <h2 class="skill-class">仮想化</h2>
+    <h2 class="skill">仮想化</h2>
     <p>VMware vSphere, VMware vSAN, VMware NSX, KVM</p>
-    <h2 class="skill-class">OS</h2>
+    <h2 class="skill">OS</h2>
     <p>Linux (Amazon Linux 2, RHEL, CentOS, Ubuntu), UNIX (FreeBSD), Windows Server (2012R2, 2016)</p>
-    <h2 class="skill-class">ミドルウェア</h2>
+    <h2 class="skill">ミドルウェア</h2>
     <p>Docker, Nginx, Apache, Sendmail, Samba, BIND, i-FILTER, ASTERIA Warp, Zabbix, Cacti, Avamar, NetBackup, Arcserve Backup, Acronis Backup</p>
-    <h2 class="skill-class">ネットワーク</h2>
+    <h2 class="skill">ネットワーク</h2>
     <p>BIG-IP, Wireshark</p>
-    <h2 class="skill-class">データベース</h2>
+    <h2 class="skill">データベース</h2>
     <p>MySQL, phpMyAdmin, Oracle Database (10g, 11g), SAP Sybase Adaptive Server Enterprise</p>
-    <h2 class="skill-class">アプリケーション・ツール</h2>
+    <h2 class="skill">アプリケーション・ツール</h2>
     <p>Vim, Visual Studio Code, Git, GitHub, Redmine, WordPress, Chef, Serverspec, Vagrant</p>
-    <h2 class="skill-class">グラフィック</h2>
+    <h2 class="skill">グラフィック</h2>
     <p>Inkscape</p>
-    <h2 class="skill-class">コーディング・プログラミング</h2>
+    <h2 class="skill">コーディング・プログラミング</h2>
     <p>HTML, CSS, bootstrap, JavaScript, PHP, Laravel, Ruby, C, Java, Bash</p>
   </div><!-- /.box -->
 </article>
 <article id="my-career">
   <div class="box p-3" style="border-color: #d58d9d;">
-    <h1 class="text-center">キャリア</h1>
+    <h1 class="title">キャリア</h1>
     <div class="row">
       <div class="col-12 col-lg-2">
-        <p class="text-center">2002年〜</p>
+        <h2 class="career">2002年〜</h2>
       </div>
       <div class="col-12 col-lg-10">
         <p>高校2年の時、将来はITの世界で働くことを決意し、大学は工学部の情報系学科を目指すことにしました。</p>
@@ -143,7 +143,7 @@
     </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
-        <p class="text-center">2004年〜</p>
+        <h2 class="career">2004年〜</h2>
       </div>
       <div class="col-12 col-lg-10">
         <p>悲願の大学に合格し、UNIXやプログラミングの演習、専門科目の勉強に打ち込みました。</p>
@@ -152,7 +152,7 @@
     </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
-        <p class="text-center">2007年〜</p>
+        <h2 class="career">2007年〜</h2>
       </div>
       <div class="col-12 col-lg-10">
         <p>大学4年から大学院2年の間、ネットワークの研究室に配属され、TCP/IPの性能改善に関する研究を行いました。</p>
@@ -162,7 +162,7 @@
     </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
-        <p class="text-center">2010年〜</p>
+        <h2 class="career">2010年〜</h2>
       </div>
       <div class="col-12 col-lg-10">
         <p>東京の独立系SIerに就職し、ITエンジニアとしてのキャリアをスタートしました。</p>
@@ -172,7 +172,7 @@
     </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
-        <p class="text-center">2015年〜</p>
+        <h2 class="career">2015年〜</h2>
       </div>
       <div class="col-12 col-lg-10">
         <p>金融系の顧客向けに大規模なサーバ仮想化基盤を構築するプロジェクトのリーダーを務めました。</p>
@@ -181,7 +181,7 @@
     </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
-        <p class="text-center">2017年〜</p>
+        <h2 class="career">2017年〜</h2>
       </div>
       <div class="col-12 col-lg-10">
         <p>ITエンジニアとして能力をさらに伸ばすため、メーカー系のSIerに転職しました。</p>
@@ -190,7 +190,7 @@
     </div><!-- /.row -->
     <div class="row">
       <div class="col-12 col-lg-2">
-        <p class="text-center">2020年〜</p>
+        <h2 class="career">2020年〜</h2>
       </div>
       <div class="col-12 col-lg-10">
         <p>数年前からWebの技術に興味を持ち始めていたため、まずはWordPressで自分のブログを作るところからスタートしました。</p>
