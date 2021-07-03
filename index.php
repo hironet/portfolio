@@ -16,7 +16,7 @@ $contents_desc = 'このサイトはITエンジニアHiroのポートフォリ�
   <meta name="twitter:image" content="https://engineer-hiro.com/img/ogp.png">
   <!-- /Twitter -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
   <title><?= $contents_title ?></title>
   <style>
